@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virtual Vita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🩺 AI Healthcare Assistant</h2>
+
+    <div id="chat-box"></div>
+
+    <h4>Select your symptoms:</h4>
+
+    <div id="symptoms">
+        <label><input type="checkbox" value="fever"> Fever</label><br>
+        <label><input type="checkbox" value="headache"> Headache</label><br>
+        <label><input type="checkbox" value="vomiting"> Vomiting</label><br>
+        <label><input type="checkbox" value="cough"> Cough</label><br>
+        <label><input type="checkbox" value="fatigue"> Fatigue</label><br>
+        <label><input type="checkbox" value="chest pain"> Chest Pain</label><br>
+    </div>
+
+    <button onclick="sendMessage()">Diagnose</button>
+</div>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
