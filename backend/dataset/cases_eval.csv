@@ -1,0 +1,609 @@
+case_id,disease_label,symptoms_text,symptom_tokens,input_quality
+EVAL-00000-A,Fungal infection,"I have itching, skin rash, nodal skin eruptions, dischromic  patches.","itching, skin rash, nodal skin eruptions, dischromic  patches",complete
+EVAL-00000-B,Fungal infection,"I have itching, skin rash.","itching, skin rash",incomplete
+EVAL-00001-A,Fungal infection,"Patient reports skin rash, nodal skin eruptions, dischromic  patches.","skin rash, nodal skin eruptions, dischromic  patches",complete
+EVAL-00001-B,Fungal infection,"Since morning I am feeling skin rash, nodal skin eruptions.","skin rash, nodal skin eruptions",incomplete
+EVAL-00002-A,Fungal infection,"Since morning I am feeling itching, nodal skin eruptions, dischromic  patches.","itching, nodal skin eruptions, dischromic  patches",complete
+EVAL-00002-B,Fungal infection,"Since morning I am feeling itching, nodal skin eruptions.","itching, nodal skin eruptions",incomplete
+EVAL-00003-A,Fungal infection,"I have itching, skin rash, dischromic  patches.","itching, skin rash, dischromic  patches",complete
+EVAL-00003-B,Fungal infection,"Complaint: itching, skin rash.","itching, skin rash",incomplete
+EVAL-00004-A,Fungal infection,"I have itching, skin rash, nodal skin eruptions.","itching, skin rash, nodal skin eruptions",complete
+EVAL-00004-B,Fungal infection,"Complaint: itching, skin rash.","itching, skin rash",incomplete
+EVAL-00010-A,Allergy,"I am experiencing continuous sneezing, shivering, chills, watering from eyes for two days.","continuous sneezing, shivering, chills, watering from eyes",complete
+EVAL-00010-B,Allergy,"I have continuous sneezing, shivering.","continuous sneezing, shivering",incomplete
+EVAL-00011-A,Allergy,"I have shivering, chills, watering from eyes.","shivering, chills, watering from eyes",complete
+EVAL-00011-B,Allergy,"I have shivering, chills.","shivering, chills",incomplete
+EVAL-00012-A,Allergy,"Since morning I am feeling continuous sneezing, chills, watering from eyes.","continuous sneezing, chills, watering from eyes",complete
+EVAL-00012-B,Allergy,"Since morning I am feeling continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00013-A,Allergy,"Complaint: continuous sneezing, shivering, watering from eyes.","continuous sneezing, shivering, watering from eyes",complete
+EVAL-00013-B,Allergy,"Complaint: continuous sneezing, shivering.","continuous sneezing, shivering",incomplete
+EVAL-00014-A,Allergy,"I have continuous sneezing, shivering, chills.","continuous sneezing, shivering, chills",complete
+EVAL-00014-B,Allergy,"Complaint: continuous sneezing, shivering.","continuous sneezing, shivering",incomplete
+EVAL-00020-A,GERD,"Since morning I am feeling stomach pain, acidity, ulcers on tongue, vomiting, cough.","stomach pain, acidity, ulcers on tongue, vomiting, cough, chest pain",complete
+EVAL-00020-B,GERD,"Complaint: stomach pain, acidity.","stomach pain, acidity",incomplete
+EVAL-00021-A,GERD,"I am experiencing stomach pain, ulcers on tongue, vomiting, cough, chest pain for two days.","stomach pain, ulcers on tongue, vomiting, cough, chest pain",complete
+EVAL-00021-B,GERD,"Since morning I am feeling stomach pain, ulcers on tongue.","stomach pain, ulcers on tongue",incomplete
+EVAL-00022-A,GERD,"I am experiencing stomach pain, acidity, vomiting, cough, chest pain for two days.","stomach pain, acidity, vomiting, cough, chest pain",complete
+EVAL-00022-B,GERD,"Complaint: stomach pain, acidity.","stomach pain, acidity",incomplete
+EVAL-00023-A,GERD,"Patient reports stomach pain, acidity, ulcers on tongue, cough, chest pain.","stomach pain, acidity, ulcers on tongue, cough, chest pain",complete
+EVAL-00023-B,GERD,"I have stomach pain, acidity.","stomach pain, acidity",incomplete
+EVAL-00024-A,GERD,"Since morning I am feeling stomach pain, acidity, ulcers on tongue, vomiting, chest pain.","stomach pain, acidity, ulcers on tongue, vomiting, chest pain",complete
+EVAL-00024-B,GERD,"I am experiencing stomach pain, acidity for two days.","stomach pain, acidity",incomplete
+EVAL-00025-A,GERD,"Patient reports stomach pain, acidity, ulcers on tongue, vomiting, cough.","stomach pain, acidity, ulcers on tongue, vomiting, cough",complete
+EVAL-00025-B,GERD,"Patient reports stomach pain, acidity.","stomach pain, acidity",incomplete
+EVAL-00026-A,GERD,"Since morning I am feeling acidity, ulcers on tongue, vomiting, cough, chest pain.","acidity, ulcers on tongue, vomiting, cough, chest pain",complete
+EVAL-00026-B,GERD,"Since morning I am feeling acidity, ulcers on tongue.","acidity, ulcers on tongue",incomplete
+EVAL-00030-A,Chronic cholestasis,"Patient reports itching, vomiting, yellowish skin, nausea, loss of appetite.","itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00030-B,Chronic cholestasis,"I have itching, vomiting.","itching, vomiting",incomplete
+EVAL-00031-A,Chronic cholestasis,"I have vomiting, yellowish skin, nausea, loss of appetite, abdominal pain.","vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00031-B,Chronic cholestasis,"I am experiencing vomiting, yellowish skin for two days.","vomiting, yellowish skin",incomplete
+EVAL-00032-A,Chronic cholestasis,"I have itching, yellowish skin, nausea, loss of appetite, abdominal pain.","itching, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00032-B,Chronic cholestasis,"Patient reports itching, yellowish skin.","itching, yellowish skin",incomplete
+EVAL-00033-A,Chronic cholestasis,"Patient reports itching, vomiting, nausea, loss of appetite, abdominal pain.","itching, vomiting, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00033-B,Chronic cholestasis,"Complaint: itching, vomiting.","itching, vomiting",incomplete
+EVAL-00034-A,Chronic cholestasis,"Patient reports itching, vomiting, yellowish skin, loss of appetite, abdominal pain.","itching, vomiting, yellowish skin, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00034-B,Chronic cholestasis,"I have itching, vomiting.","itching, vomiting",incomplete
+EVAL-00035-A,Chronic cholestasis,"I am experiencing itching, vomiting, yellowish skin, nausea, abdominal pain for two days.","itching, vomiting, yellowish skin, nausea, abdominal pain, yellowing of eyes",complete
+EVAL-00035-B,Chronic cholestasis,"Complaint: itching, vomiting.","itching, vomiting",incomplete
+EVAL-00036-A,Chronic cholestasis,"I have itching, vomiting, yellowish skin, nausea, loss of appetite.","itching, vomiting, yellowish skin, nausea, loss of appetite, yellowing of eyes",complete
+EVAL-00036-B,Chronic cholestasis,"I am experiencing itching, vomiting for two days.","itching, vomiting",incomplete
+EVAL-00037-A,Chronic cholestasis,"I have itching, vomiting, yellowish skin, nausea, loss of appetite.","itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain",complete
+EVAL-00037-B,Chronic cholestasis,"Complaint: itching, vomiting.","itching, vomiting",incomplete
+EVAL-00040-A,Drug Reaction,"Patient reports itching, skin rash, stomach pain, burning micturition, spotting  urination.","itching, skin rash, stomach pain, burning micturition, spotting  urination",complete
+EVAL-00040-B,Drug Reaction,"Complaint: itching, skin rash.","itching, skin rash",incomplete
+EVAL-00041-A,Drug Reaction,"Patient reports itching, stomach pain, burning micturition, spotting  urination.","itching, stomach pain, burning micturition, spotting  urination",complete
+EVAL-00041-B,Drug Reaction,"Complaint: itching, stomach pain.","itching, stomach pain",incomplete
+EVAL-00042-A,Drug Reaction,"Since morning I am feeling itching, skin rash, burning micturition, spotting  urination.","itching, skin rash, burning micturition, spotting  urination",complete
+EVAL-00042-B,Drug Reaction,"I have itching, skin rash.","itching, skin rash",incomplete
+EVAL-00043-A,Drug Reaction,"I have itching, skin rash, stomach pain, spotting  urination.","itching, skin rash, stomach pain, spotting  urination",complete
+EVAL-00043-B,Drug Reaction,"Since morning I am feeling itching, skin rash.","itching, skin rash",incomplete
+EVAL-00044-A,Drug Reaction,"Patient reports itching, skin rash, stomach pain, burning micturition.","itching, skin rash, stomach pain, burning micturition",complete
+EVAL-00044-B,Drug Reaction,"I have itching, skin rash.","itching, skin rash",incomplete
+EVAL-00045-A,Drug Reaction,"Since morning I am feeling skin rash, stomach pain, burning micturition, spotting  urination.","skin rash, stomach pain, burning micturition, spotting  urination",complete
+EVAL-00045-B,Drug Reaction,"I have skin rash, stomach pain.","skin rash, stomach pain",incomplete
+EVAL-00050-A,Peptic ulcer diseae,"I am experiencing vomiting, loss of appetite, abdominal pain, passage of gases, internal itching for two days.","vomiting, loss of appetite, abdominal pain, passage of gases, internal itching",complete
+EVAL-00050-B,Peptic ulcer diseae,"Patient reports vomiting, loss of appetite.","vomiting, loss of appetite",incomplete
+EVAL-00051-A,Peptic ulcer diseae,"I am experiencing vomiting, indigestion, abdominal pain, passage of gases, internal itching for two days.","vomiting, indigestion, abdominal pain, passage of gases, internal itching",complete
+EVAL-00051-B,Peptic ulcer diseae,"Patient reports vomiting, indigestion.","vomiting, indigestion",incomplete
+EVAL-00052-A,Peptic ulcer diseae,"Since morning I am feeling indigestion, loss of appetite, abdominal pain, passage of gases, internal itching.","indigestion, loss of appetite, abdominal pain, passage of gases, internal itching",complete
+EVAL-00052-B,Peptic ulcer diseae,"Patient reports indigestion, loss of appetite.","indigestion, loss of appetite",incomplete
+EVAL-00055-A,Peptic ulcer diseae,"Patient reports vomiting, indigestion, loss of appetite, passage of gases, internal itching.","vomiting, indigestion, loss of appetite, passage of gases, internal itching",complete
+EVAL-00055-B,Peptic ulcer diseae,"Since morning I am feeling vomiting, indigestion.","vomiting, indigestion",incomplete
+EVAL-00056-A,Peptic ulcer diseae,"Patient reports vomiting, indigestion, loss of appetite, abdominal pain, internal itching.","vomiting, indigestion, loss of appetite, abdominal pain, internal itching",complete
+EVAL-00056-B,Peptic ulcer diseae,"I have vomiting, indigestion.","vomiting, indigestion",incomplete
+EVAL-00057-A,Peptic ulcer diseae,"Complaint: vomiting, indigestion, loss of appetite, abdominal pain, passage of gases.","vomiting, indigestion, loss of appetite, abdominal pain, passage of gases",complete
+EVAL-00057-B,Peptic ulcer diseae,"Since morning I am feeling vomiting, indigestion.","vomiting, indigestion",incomplete
+EVAL-00058-A,Peptic ulcer diseae,"Complaint: vomiting, indigestion, loss of appetite, abdominal pain, passage of gases.","vomiting, indigestion, loss of appetite, abdominal pain, passage of gases, internal itching",complete
+EVAL-00058-B,Peptic ulcer diseae,"Since morning I am feeling vomiting, indigestion.","vomiting, indigestion",incomplete
+EVAL-00060-A,AIDS,"Since morning I am feeling muscle wasting, patches in throat, high fever, extra marital contacts.","muscle wasting, patches in throat, high fever, extra marital contacts",complete
+EVAL-00060-B,AIDS,"I am experiencing muscle wasting, patches in throat for two days.","muscle wasting, patches in throat",incomplete
+EVAL-00061-A,AIDS,"I am experiencing patches in throat, high fever, extra marital contacts for two days.","patches in throat, high fever, extra marital contacts",complete
+EVAL-00061-B,AIDS,"Patient reports patches in throat, high fever.","patches in throat, high fever",incomplete
+EVAL-00062-A,AIDS,"Complaint: muscle wasting, high fever, extra marital contacts.","muscle wasting, high fever, extra marital contacts",complete
+EVAL-00062-B,AIDS,"Since morning I am feeling muscle wasting, high fever.","muscle wasting, high fever",incomplete
+EVAL-00063-A,AIDS,"Patient reports muscle wasting, patches in throat, extra marital contacts.","muscle wasting, patches in throat, extra marital contacts",complete
+EVAL-00063-B,AIDS,"I have muscle wasting, patches in throat.","muscle wasting, patches in throat",incomplete
+EVAL-00064-A,AIDS,"Since morning I am feeling muscle wasting, patches in throat, high fever.","muscle wasting, patches in throat, high fever",complete
+EVAL-00064-B,AIDS,"I have muscle wasting, patches in throat.","muscle wasting, patches in throat",incomplete
+EVAL-00070-A,Diabetes,"Patient reports fatigue, weight loss, restlessness, lethargy, irregular sugar level.","fatigue, weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00070-B,Diabetes,"I am experiencing fatigue, weight loss for two days.","fatigue, weight loss",incomplete
+EVAL-00072-A,Diabetes,"Patient reports weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision.","weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00072-B,Diabetes,"I have weight loss, restlessness.","weight loss, restlessness",incomplete
+EVAL-00073-A,Diabetes,"Since morning I am feeling fatigue, restlessness, lethargy, irregular sugar level, blurred and distorted vision.","fatigue, restlessness, lethargy, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00073-B,Diabetes,"Complaint: fatigue, restlessness.","fatigue, restlessness",incomplete
+EVAL-00074-A,Diabetes,"Patient reports fatigue, weight loss, lethargy, irregular sugar level, blurred and distorted vision.","fatigue, weight loss, lethargy, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00074-B,Diabetes,"Since morning I am feeling fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00075-A,Diabetes,"I am experiencing fatigue, weight loss, restlessness, irregular sugar level, blurred and distorted vision for two days.","fatigue, weight loss, restlessness, irregular sugar level, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00075-B,Diabetes,"I am experiencing fatigue, weight loss for two days.","fatigue, weight loss",incomplete
+EVAL-00076-A,Diabetes,"I am experiencing fatigue, weight loss, restlessness, lethargy, blurred and distorted vision for two days.","fatigue, weight loss, restlessness, lethargy, blurred and distorted vision, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00076-B,Diabetes,"Since morning I am feeling fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00077-A,Diabetes,"Patient reports fatigue, weight loss, restlessness, lethargy, irregular sugar level.","fatigue, weight loss, restlessness, lethargy, irregular sugar level, obesity, excessive hunger, increased appetite, polyuria",complete
+EVAL-00077-B,Diabetes,"Since morning I am feeling fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00078-A,Diabetes,"Since morning I am feeling fatigue, weight loss, restlessness, lethargy, irregular sugar level.","fatigue, weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision, excessive hunger, increased appetite, polyuria",complete
+EVAL-00078-B,Diabetes,"Complaint: fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00079-A,Diabetes,"Complaint: fatigue, weight loss, restlessness, lethargy, irregular sugar level.","fatigue, weight loss, restlessness, lethargy, irregular sugar level, blurred and distorted vision, obesity, increased appetite, polyuria",complete
+EVAL-00079-B,Diabetes,"Patient reports fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00080-A,Gastroenteritis,"Complaint: vomiting, sunken eyes, dehydration, diarrhoea.","vomiting, sunken eyes, dehydration, diarrhoea",complete
+EVAL-00080-B,Gastroenteritis,"I am experiencing vomiting, sunken eyes for two days.","vomiting, sunken eyes",incomplete
+EVAL-00082-A,Gastroenteritis,"Complaint: sunken eyes, dehydration, diarrhoea.","sunken eyes, dehydration, diarrhoea",complete
+EVAL-00082-B,Gastroenteritis,"I am experiencing sunken eyes, dehydration for two days.","sunken eyes, dehydration",incomplete
+EVAL-00083-A,Gastroenteritis,"Patient reports vomiting, dehydration, diarrhoea.","vomiting, dehydration, diarrhoea",complete
+EVAL-00083-B,Gastroenteritis,"Since morning I am feeling vomiting, dehydration.","vomiting, dehydration",incomplete
+EVAL-00084-A,Gastroenteritis,"Since morning I am feeling vomiting, sunken eyes, diarrhoea.","vomiting, sunken eyes, diarrhoea",complete
+EVAL-00084-B,Gastroenteritis,"Complaint: vomiting, sunken eyes.","vomiting, sunken eyes",incomplete
+EVAL-00085-A,Gastroenteritis,"I am experiencing vomiting, sunken eyes, dehydration for two days.","vomiting, sunken eyes, dehydration",complete
+EVAL-00085-B,Gastroenteritis,"I have vomiting, sunken eyes.","vomiting, sunken eyes",incomplete
+EVAL-00090-A,Bronchial Asthma,"I have fatigue, cough, high fever, breathlessness, family history.","fatigue, cough, high fever, breathlessness, family history, mucoid sputum",complete
+EVAL-00090-B,Bronchial Asthma,"I have fatigue, cough.","fatigue, cough",incomplete
+EVAL-00091-A,Bronchial Asthma,"Since morning I am feeling cough, high fever, breathlessness, family history, mucoid sputum.","cough, high fever, breathlessness, family history, mucoid sputum",complete
+EVAL-00091-B,Bronchial Asthma,"Since morning I am feeling cough, high fever.","cough, high fever",incomplete
+EVAL-00092-A,Bronchial Asthma,"I am experiencing fatigue, high fever, breathlessness, family history, mucoid sputum for two days.","fatigue, high fever, breathlessness, family history, mucoid sputum",complete
+EVAL-00092-B,Bronchial Asthma,"Complaint: fatigue, high fever.","fatigue, high fever",incomplete
+EVAL-00093-A,Bronchial Asthma,"I have fatigue, cough, breathlessness, family history, mucoid sputum.","fatigue, cough, breathlessness, family history, mucoid sputum",complete
+EVAL-00093-B,Bronchial Asthma,"I am experiencing fatigue, cough for two days.","fatigue, cough",incomplete
+EVAL-00094-A,Bronchial Asthma,"I am experiencing fatigue, cough, high fever, family history, mucoid sputum for two days.","fatigue, cough, high fever, family history, mucoid sputum",complete
+EVAL-00094-B,Bronchial Asthma,"Complaint: fatigue, cough.","fatigue, cough",incomplete
+EVAL-00095-A,Bronchial Asthma,"I am experiencing fatigue, cough, high fever, breathlessness, mucoid sputum for two days.","fatigue, cough, high fever, breathlessness, mucoid sputum",complete
+EVAL-00095-B,Bronchial Asthma,"Complaint: fatigue, cough.","fatigue, cough",incomplete
+EVAL-00096-A,Bronchial Asthma,"Patient reports fatigue, cough, high fever, breathlessness, family history.","fatigue, cough, high fever, breathlessness, family history",complete
+EVAL-00096-B,Bronchial Asthma,"Complaint: fatigue, cough.","fatigue, cough",incomplete
+EVAL-00100-A,Hypertension,"I have headache, chest pain, dizziness, loss of balance, lack of concentration.","headache, chest pain, dizziness, loss of balance, lack of concentration",complete
+EVAL-00100-B,Hypertension,"I have headache, chest pain.","headache, chest pain",incomplete
+EVAL-00101-A,Hypertension,"Complaint: chest pain, dizziness, loss of balance, lack of concentration.","chest pain, dizziness, loss of balance, lack of concentration",complete
+EVAL-00101-B,Hypertension,"Patient reports chest pain, dizziness.","chest pain, dizziness",incomplete
+EVAL-00102-A,Hypertension,"Patient reports headache, dizziness, loss of balance, lack of concentration.","headache, dizziness, loss of balance, lack of concentration",complete
+EVAL-00102-B,Hypertension,"I have headache, dizziness.","headache, dizziness",incomplete
+EVAL-00103-A,Hypertension,"Patient reports headache, chest pain, loss of balance, lack of concentration.","headache, chest pain, loss of balance, lack of concentration",complete
+EVAL-00103-B,Hypertension,"I am experiencing headache, chest pain for two days.","headache, chest pain",incomplete
+EVAL-00104-A,Hypertension,"Since morning I am feeling headache, chest pain, dizziness, lack of concentration.","headache, chest pain, dizziness, lack of concentration",complete
+EVAL-00104-B,Hypertension,"I am experiencing headache, chest pain for two days.","headache, chest pain",incomplete
+EVAL-00105-A,Hypertension,"I have headache, chest pain, dizziness, loss of balance.","headache, chest pain, dizziness, loss of balance",complete
+EVAL-00105-B,Hypertension,"Patient reports headache, chest pain.","headache, chest pain",incomplete
+EVAL-00110-A,Migraine,"Complaint: acidity, indigestion, headache, blurred and distorted vision, excessive hunger.","acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00110-B,Migraine,"Since morning I am feeling acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00111-A,Migraine,"Complaint: indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck.","indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00111-B,Migraine,"I have indigestion, headache.","indigestion, headache",incomplete
+EVAL-00112-A,Migraine,"Patient reports acidity, headache, blurred and distorted vision, excessive hunger, stiff neck.","acidity, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00112-B,Migraine,"Complaint: acidity, headache.","acidity, headache",incomplete
+EVAL-00113-A,Migraine,"Complaint: acidity, indigestion, blurred and distorted vision, excessive hunger, stiff neck.","acidity, indigestion, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00113-B,Migraine,"Since morning I am feeling acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00114-A,Migraine,"Since morning I am feeling acidity, indigestion, headache, excessive hunger, stiff neck.","acidity, indigestion, headache, excessive hunger, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00114-B,Migraine,"Patient reports acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00115-A,Migraine,"Since morning I am feeling acidity, indigestion, headache, blurred and distorted vision, stiff neck.","acidity, indigestion, headache, blurred and distorted vision, stiff neck, depression, irritability, visual disturbances",complete
+EVAL-00115-B,Migraine,"Complaint: acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00116-A,Migraine,"Complaint: acidity, indigestion, headache, blurred and distorted vision, excessive hunger.","acidity, indigestion, headache, blurred and distorted vision, excessive hunger, depression, irritability, visual disturbances",complete
+EVAL-00116-B,Migraine,"I have acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00117-A,Migraine,"Complaint: acidity, indigestion, headache, blurred and distorted vision, excessive hunger.","acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, irritability, visual disturbances",complete
+EVAL-00117-B,Migraine,"Patient reports acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00118-A,Migraine,"I am experiencing acidity, indigestion, headache, blurred and distorted vision, excessive hunger for two days.","acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, visual disturbances",complete
+EVAL-00118-B,Migraine,"I have acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00119-A,Migraine,"I have acidity, indigestion, headache, blurred and distorted vision, excessive hunger.","acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability",complete
+EVAL-00119-B,Migraine,"Patient reports acidity, indigestion.","acidity, indigestion",incomplete
+EVAL-00120-A,Cervical spondylosis,"Patient reports back pain, weakness in limbs, neck pain, dizziness, loss of balance.","back pain, weakness in limbs, neck pain, dizziness, loss of balance",complete
+EVAL-00120-B,Cervical spondylosis,"Since morning I am feeling back pain, weakness in limbs.","back pain, weakness in limbs",incomplete
+EVAL-00122-A,Cervical spondylosis,"I have weakness in limbs, neck pain, dizziness, loss of balance.","weakness in limbs, neck pain, dizziness, loss of balance",complete
+EVAL-00122-B,Cervical spondylosis,"Since morning I am feeling weakness in limbs, neck pain.","weakness in limbs, neck pain",incomplete
+EVAL-00123-A,Cervical spondylosis,"Complaint: back pain, neck pain, dizziness, loss of balance.","back pain, neck pain, dizziness, loss of balance",complete
+EVAL-00123-B,Cervical spondylosis,"I have back pain, neck pain.","back pain, neck pain",incomplete
+EVAL-00124-A,Cervical spondylosis,"I have back pain, weakness in limbs, dizziness, loss of balance.","back pain, weakness in limbs, dizziness, loss of balance",complete
+EVAL-00124-B,Cervical spondylosis,"I am experiencing back pain, weakness in limbs for two days.","back pain, weakness in limbs",incomplete
+EVAL-00125-A,Cervical spondylosis,"I have back pain, weakness in limbs, neck pain, loss of balance.","back pain, weakness in limbs, neck pain, loss of balance",complete
+EVAL-00125-B,Cervical spondylosis,"Complaint: back pain, weakness in limbs.","back pain, weakness in limbs",incomplete
+EVAL-00126-A,Cervical spondylosis,"Since morning I am feeling back pain, weakness in limbs, neck pain, dizziness.","back pain, weakness in limbs, neck pain, dizziness",complete
+EVAL-00126-B,Cervical spondylosis,"Since morning I am feeling back pain, weakness in limbs.","back pain, weakness in limbs",incomplete
+EVAL-00130-A,Paralysis (brain hemorrhage),"I am experiencing vomiting, headache, weakness of one body side, altered sensorium for two days.","vomiting, headache, weakness of one body side, altered sensorium",complete
+EVAL-00130-B,Paralysis (brain hemorrhage),"Complaint: vomiting, headache.","vomiting, headache",incomplete
+EVAL-00132-A,Paralysis (brain hemorrhage),"Since morning I am feeling headache, weakness of one body side, altered sensorium.","headache, weakness of one body side, altered sensorium",complete
+EVAL-00132-B,Paralysis (brain hemorrhage),"Patient reports headache, weakness of one body side.","headache, weakness of one body side",incomplete
+EVAL-00133-A,Paralysis (brain hemorrhage),"Complaint: vomiting, weakness of one body side, altered sensorium.","vomiting, weakness of one body side, altered sensorium",complete
+EVAL-00133-B,Paralysis (brain hemorrhage),"Complaint: vomiting, weakness of one body side.","vomiting, weakness of one body side",incomplete
+EVAL-00134-A,Paralysis (brain hemorrhage),"I am experiencing vomiting, headache, altered sensorium for two days.","vomiting, headache, altered sensorium",complete
+EVAL-00134-B,Paralysis (brain hemorrhage),"Since morning I am feeling vomiting, headache.","vomiting, headache",incomplete
+EVAL-00135-A,Paralysis (brain hemorrhage),"Complaint: vomiting, headache, weakness of one body side.","vomiting, headache, weakness of one body side",complete
+EVAL-00135-B,Paralysis (brain hemorrhage),"Since morning I am feeling vomiting, headache.","vomiting, headache",incomplete
+EVAL-00140-A,Jaundice,"Patient reports itching, vomiting, fatigue, weight loss, high fever.","itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00140-B,Jaundice,"I am experiencing itching, vomiting for two days.","itching, vomiting",incomplete
+EVAL-00142-A,Jaundice,"Patient reports vomiting, fatigue, weight loss, high fever, yellowish skin.","vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00142-B,Jaundice,"I am experiencing vomiting, fatigue for two days.","vomiting, fatigue",incomplete
+EVAL-00143-A,Jaundice,"Complaint: itching, fatigue, weight loss, high fever, yellowish skin.","itching, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00143-B,Jaundice,"I am experiencing itching, fatigue for two days.","itching, fatigue",incomplete
+EVAL-00144-A,Jaundice,"I have itching, vomiting, weight loss, high fever, yellowish skin.","itching, vomiting, weight loss, high fever, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00144-B,Jaundice,"Since morning I am feeling itching, vomiting.","itching, vomiting",incomplete
+EVAL-00145-A,Jaundice,"Since morning I am feeling itching, vomiting, fatigue, high fever, yellowish skin.","itching, vomiting, fatigue, high fever, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00145-B,Jaundice,"I have itching, vomiting.","itching, vomiting",incomplete
+EVAL-00146-A,Jaundice,"Patient reports itching, vomiting, fatigue, weight loss, yellowish skin.","itching, vomiting, fatigue, weight loss, yellowish skin, dark urine, abdominal pain",complete
+EVAL-00146-B,Jaundice,"I have itching, vomiting.","itching, vomiting",incomplete
+EVAL-00147-A,Jaundice,"Complaint: itching, vomiting, fatigue, weight loss, high fever.","itching, vomiting, fatigue, weight loss, high fever, dark urine, abdominal pain",complete
+EVAL-00147-B,Jaundice,"Complaint: itching, vomiting.","itching, vomiting",incomplete
+EVAL-00148-A,Jaundice,"Since morning I am feeling itching, vomiting, fatigue, weight loss, high fever.","itching, vomiting, fatigue, weight loss, high fever, yellowish skin, abdominal pain",complete
+EVAL-00148-B,Jaundice,"Complaint: itching, vomiting.","itching, vomiting",incomplete
+EVAL-00149-A,Jaundice,"Since morning I am feeling itching, vomiting, fatigue, weight loss, high fever.","itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine",complete
+EVAL-00149-B,Jaundice,"I have itching, vomiting.","itching, vomiting",incomplete
+EVAL-00150-A,Malaria,"I have chills, vomiting, high fever, sweating, headache.","chills, vomiting, high fever, sweating, headache, nausea, muscle pain",complete
+EVAL-00150-B,Malaria,"I have chills, vomiting.","chills, vomiting",incomplete
+EVAL-00151-A,Malaria,"Since morning I am feeling chills, vomiting, high fever, sweating, headache.","chills, vomiting, high fever, sweating, headache, nausea, diarrhoea, muscle pain",complete
+EVAL-00151-B,Malaria,"I have chills, vomiting.","chills, vomiting",incomplete
+EVAL-00153-A,Malaria,"I have vomiting, high fever, sweating, headache, nausea.","vomiting, high fever, sweating, headache, nausea, diarrhoea, muscle pain",complete
+EVAL-00153-B,Malaria,"Patient reports vomiting, high fever.","vomiting, high fever",incomplete
+EVAL-00154-A,Malaria,"I have chills, high fever, sweating, headache, nausea.","chills, high fever, sweating, headache, nausea, diarrhoea, muscle pain",complete
+EVAL-00154-B,Malaria,"Complaint: chills, high fever.","chills, high fever",incomplete
+EVAL-00155-A,Malaria,"Since morning I am feeling chills, vomiting, sweating, headache, nausea.","chills, vomiting, sweating, headache, nausea, diarrhoea, muscle pain",complete
+EVAL-00155-B,Malaria,"Patient reports chills, vomiting.","chills, vomiting",incomplete
+EVAL-00156-A,Malaria,"I am experiencing chills, vomiting, high fever, headache, nausea for two days.","chills, vomiting, high fever, headache, nausea, diarrhoea, muscle pain",complete
+EVAL-00156-B,Malaria,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00157-A,Malaria,"Complaint: chills, vomiting, high fever, sweating, nausea.","chills, vomiting, high fever, sweating, nausea, diarrhoea, muscle pain",complete
+EVAL-00157-B,Malaria,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00158-A,Malaria,"Complaint: chills, vomiting, high fever, sweating, headache.","chills, vomiting, high fever, sweating, headache, diarrhoea, muscle pain",complete
+EVAL-00158-B,Malaria,"Complaint: chills, vomiting.","chills, vomiting",incomplete
+EVAL-00160-A,Chicken pox,"I am experiencing itching, skin rash, fatigue, lethargy, high fever for two days.","itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00160-B,Chicken pox,"Since morning I am feeling itching, skin rash.","itching, skin rash",incomplete
+EVAL-00161-A,Chicken pox,"I am experiencing skin rash, fatigue, lethargy, high fever, headache for two days.","skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00161-B,Chicken pox,"I am experiencing skin rash, fatigue for two days.","skin rash, fatigue",incomplete
+EVAL-00162-A,Chicken pox,"Since morning I am feeling itching, fatigue, lethargy, high fever, headache.","itching, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00162-B,Chicken pox,"I have itching, fatigue.","itching, fatigue",incomplete
+EVAL-00163-A,Chicken pox,"I have itching, skin rash, lethargy, high fever, headache.","itching, skin rash, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00163-B,Chicken pox,"I am experiencing itching, skin rash for two days.","itching, skin rash",incomplete
+EVAL-00164-A,Chicken pox,"Patient reports itching, skin rash, fatigue, high fever, headache.","itching, skin rash, fatigue, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00164-B,Chicken pox,"I am experiencing itching, skin rash for two days.","itching, skin rash",incomplete
+EVAL-00165-A,Chicken pox,"I am experiencing itching, skin rash, fatigue, lethargy, headache for two days.","itching, skin rash, fatigue, lethargy, headache, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00165-B,Chicken pox,"I am experiencing itching, skin rash for two days.","itching, skin rash",incomplete
+EVAL-00166-A,Chicken pox,"I have itching, skin rash, fatigue, lethargy, high fever.","itching, skin rash, fatigue, lethargy, high fever, loss of appetite, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00166-B,Chicken pox,"I have itching, skin rash.","itching, skin rash",incomplete
+EVAL-00167-A,Chicken pox,"I have itching, skin rash, fatigue, lethargy, high fever.","itching, skin rash, fatigue, lethargy, high fever, headache, mild fever, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00167-B,Chicken pox,"I am experiencing itching, skin rash for two days.","itching, skin rash",incomplete
+EVAL-00168-A,Chicken pox,"Patient reports itching, skin rash, fatigue, lethargy, high fever.","itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, swelled lymph nodes, malaise, red spots over body",complete
+EVAL-00168-B,Chicken pox,"I have itching, skin rash.","itching, skin rash",incomplete
+EVAL-00169-A,Chicken pox,"Since morning I am feeling itching, skin rash, fatigue, lethargy, high fever.","itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, malaise, red spots over body",complete
+EVAL-00169-B,Chicken pox,"Since morning I am feeling itching, skin rash.","itching, skin rash",incomplete
+EVAL-00170-A,Dengue,"Since morning I am feeling skin rash, chills, joint pain, vomiting, fatigue.","skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, muscle pain, red spots over body",complete
+EVAL-00170-B,Dengue,"Complaint: skin rash, chills.","skin rash, chills",incomplete
+EVAL-00171-A,Dengue,"I am experiencing skin rash, chills, joint pain, vomiting, fatigue for two days.","skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, red spots over body",complete
+EVAL-00171-B,Dengue,"Since morning I am feeling skin rash, chills.","skin rash, chills",incomplete
+EVAL-00172-A,Dengue,"I am experiencing skin rash, chills, joint pain, vomiting, fatigue for two days.","skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain",complete
+EVAL-00172-B,Dengue,"Since morning I am feeling skin rash, chills.","skin rash, chills",incomplete
+EVAL-00173-A,Dengue,"Patient reports skin rash, chills, joint pain, vomiting, fatigue.","skin rash, chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00173-B,Dengue,"I am experiencing skin rash, chills for two days.","skin rash, chills",incomplete
+EVAL-00174-A,Dengue,"Since morning I am feeling chills, joint pain, vomiting, fatigue, high fever.","chills, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00174-B,Dengue,"I have chills, joint pain.","chills, joint pain",incomplete
+EVAL-00175-A,Dengue,"I am experiencing skin rash, joint pain, vomiting, fatigue, high fever for two days.","skin rash, joint pain, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00175-B,Dengue,"Complaint: skin rash, joint pain.","skin rash, joint pain",incomplete
+EVAL-00176-A,Dengue,"I have skin rash, chills, vomiting, fatigue, high fever.","skin rash, chills, vomiting, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00176-B,Dengue,"I have skin rash, chills.","skin rash, chills",incomplete
+EVAL-00177-A,Dengue,"Complaint: skin rash, chills, joint pain, fatigue, high fever.","skin rash, chills, joint pain, fatigue, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00177-B,Dengue,"I have skin rash, chills.","skin rash, chills",incomplete
+EVAL-00178-A,Dengue,"I have skin rash, chills, joint pain, vomiting, high fever.","skin rash, chills, joint pain, vomiting, high fever, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00178-B,Dengue,"Since morning I am feeling skin rash, chills.","skin rash, chills",incomplete
+EVAL-00179-A,Dengue,"Since morning I am feeling skin rash, chills, joint pain, vomiting, fatigue.","skin rash, chills, joint pain, vomiting, fatigue, headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body",complete
+EVAL-00179-B,Dengue,"I am experiencing skin rash, chills for two days.","skin rash, chills",incomplete
+EVAL-00180-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, nausea for two days.","chills, vomiting, fatigue, high fever, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00180-B,Typhoid,"I am experiencing chills, vomiting for two days.","chills, vomiting",incomplete
+EVAL-00181-A,Typhoid,"Since morning I am feeling chills, vomiting, fatigue, high fever, headache.","chills, vomiting, fatigue, high fever, headache, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00181-B,Typhoid,"I am experiencing chills, vomiting for two days.","chills, vomiting",incomplete
+EVAL-00182-A,Typhoid,"I have chills, vomiting, fatigue, high fever, headache.","chills, vomiting, fatigue, high fever, headache, nausea, abdominal pain, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00182-B,Typhoid,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00183-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, headache for two days.","chills, vomiting, fatigue, high fever, headache, nausea, constipation, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00183-B,Typhoid,"I have chills, vomiting.","chills, vomiting",incomplete
+EVAL-00184-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, headache for two days.","chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, toxic look (typhos), belly pain",complete
+EVAL-00184-B,Typhoid,"Patient reports chills, vomiting.","chills, vomiting",incomplete
+EVAL-00185-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, headache for two days.","chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, belly pain",complete
+EVAL-00185-B,Typhoid,"Patient reports chills, vomiting.","chills, vomiting",incomplete
+EVAL-00186-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, headache for two days.","chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos)",complete
+EVAL-00186-B,Typhoid,"Complaint: chills, vomiting.","chills, vomiting",incomplete
+EVAL-00187-A,Typhoid,"I am experiencing chills, vomiting, fatigue, high fever, headache for two days.","chills, vomiting, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00187-B,Typhoid,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00189-A,Typhoid,"Since morning I am feeling chills, fatigue, high fever, headache, nausea.","chills, fatigue, high fever, headache, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain",complete
+EVAL-00189-B,Typhoid,"Patient reports chills, fatigue.","chills, fatigue",incomplete
+EVAL-00190-A,hepatitis A,"Since morning I am feeling joint pain, vomiting, yellowish skin, dark urine, nausea.","joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00190-B,hepatitis A,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00192-A,hepatitis A,"Complaint: vomiting, yellowish skin, dark urine, nausea, loss of appetite.","vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00192-B,hepatitis A,"Complaint: vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00193-A,hepatitis A,"I have joint pain, yellowish skin, dark urine, nausea, loss of appetite.","joint pain, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00193-B,hepatitis A,"Patient reports joint pain, yellowish skin.","joint pain, yellowish skin",incomplete
+EVAL-00194-A,hepatitis A,"I have joint pain, vomiting, dark urine, nausea, loss of appetite.","joint pain, vomiting, dark urine, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00194-B,hepatitis A,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00195-A,hepatitis A,"Complaint: joint pain, vomiting, yellowish skin, nausea, loss of appetite.","joint pain, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00195-B,hepatitis A,"I am experiencing joint pain, vomiting for two days.","joint pain, vomiting",incomplete
+EVAL-00196-A,hepatitis A,"Complaint: joint pain, vomiting, yellowish skin, dark urine, loss of appetite.","joint pain, vomiting, yellowish skin, dark urine, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00196-B,hepatitis A,"Complaint: joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00197-A,hepatitis A,"Since morning I am feeling joint pain, vomiting, yellowish skin, dark urine, nausea.","joint pain, vomiting, yellowish skin, dark urine, nausea, abdominal pain, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00197-B,hepatitis A,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00198-A,hepatitis A,"Complaint: joint pain, vomiting, yellowish skin, dark urine, nausea.","joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, diarrhoea, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00198-B,hepatitis A,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00199-A,hepatitis A,"Since morning I am feeling joint pain, vomiting, yellowish skin, dark urine, nausea.","joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, mild fever, yellowing of eyes, muscle pain",complete
+EVAL-00199-B,hepatitis A,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00200-A,Hepatitis B,"Complaint: itching, fatigue, lethargy, yellowish skin, dark urine.","itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00200-B,Hepatitis B,"I have itching, fatigue.","itching, fatigue",incomplete
+EVAL-00202-A,Hepatitis B,"Since morning I am feeling fatigue, lethargy, yellowish skin, dark urine, loss of appetite.","fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00202-B,Hepatitis B,"I am experiencing fatigue, lethargy for two days.","fatigue, lethargy",incomplete
+EVAL-00203-A,Hepatitis B,"I have itching, lethargy, yellowish skin, dark urine, loss of appetite.","itching, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00203-B,Hepatitis B,"Complaint: itching, lethargy.","itching, lethargy",incomplete
+EVAL-00204-A,Hepatitis B,"Since morning I am feeling itching, fatigue, yellowish skin, dark urine, loss of appetite.","itching, fatigue, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00204-B,Hepatitis B,"Complaint: itching, fatigue.","itching, fatigue",incomplete
+EVAL-00205-A,Hepatitis B,"Complaint: itching, fatigue, lethargy, dark urine, loss of appetite.","itching, fatigue, lethargy, dark urine, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00205-B,Hepatitis B,"I have itching, fatigue.","itching, fatigue",incomplete
+EVAL-00206-A,Hepatitis B,"Complaint: itching, fatigue, lethargy, yellowish skin, loss of appetite.","itching, fatigue, lethargy, yellowish skin, loss of appetite, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00206-B,Hepatitis B,"I have itching, fatigue.","itching, fatigue",incomplete
+EVAL-00207-A,Hepatitis B,"I am experiencing itching, fatigue, lethargy, yellowish skin, dark urine for two days.","itching, fatigue, lethargy, yellowish skin, dark urine, abdominal pain, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00207-B,Hepatitis B,"Complaint: itching, fatigue.","itching, fatigue",incomplete
+EVAL-00208-A,Hepatitis B,"Complaint: itching, fatigue, lethargy, yellowish skin, dark urine.","itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, yellow urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00208-B,Hepatitis B,"Complaint: itching, fatigue.","itching, fatigue",incomplete
+EVAL-00209-A,Hepatitis B,"Patient reports itching, fatigue, lethargy, yellowish skin, dark urine.","itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections",complete
+EVAL-00209-B,Hepatitis B,"Patient reports itching, fatigue.","itching, fatigue",incomplete
+EVAL-00210-A,Hepatitis C,"Since morning I am feeling fatigue, yellowish skin, nausea, loss of appetite, family history.","fatigue, yellowish skin, nausea, loss of appetite, family history",complete
+EVAL-00210-B,Hepatitis C,"Patient reports fatigue, yellowish skin.","fatigue, yellowish skin",incomplete
+EVAL-00211-A,Hepatitis C,"Since morning I am feeling fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes.","fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes, family history",complete
+EVAL-00211-B,Hepatitis C,"Patient reports fatigue, yellowish skin.","fatigue, yellowish skin",incomplete
+EVAL-00212-A,Hepatitis C,"I am experiencing yellowish skin, nausea, loss of appetite, yellowing of eyes, family history for two days.","yellowish skin, nausea, loss of appetite, yellowing of eyes, family history",complete
+EVAL-00212-B,Hepatitis C,"Since morning I am feeling yellowish skin, nausea.","yellowish skin, nausea",incomplete
+EVAL-00213-A,Hepatitis C,"Patient reports fatigue, nausea, loss of appetite, yellowing of eyes, family history.","fatigue, nausea, loss of appetite, yellowing of eyes, family history",complete
+EVAL-00213-B,Hepatitis C,"I am experiencing fatigue, nausea for two days.","fatigue, nausea",incomplete
+EVAL-00214-A,Hepatitis C,"Patient reports fatigue, yellowish skin, loss of appetite, yellowing of eyes, family history.","fatigue, yellowish skin, loss of appetite, yellowing of eyes, family history",complete
+EVAL-00214-B,Hepatitis C,"I have fatigue, yellowish skin.","fatigue, yellowish skin",incomplete
+EVAL-00215-A,Hepatitis C,"I have fatigue, yellowish skin, nausea, yellowing of eyes, family history.","fatigue, yellowish skin, nausea, yellowing of eyes, family history",complete
+EVAL-00215-B,Hepatitis C,"I am experiencing fatigue, yellowish skin for two days.","fatigue, yellowish skin",incomplete
+EVAL-00217-A,Hepatitis C,"Complaint: fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes.","fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes",complete
+EVAL-00217-B,Hepatitis C,"Complaint: fatigue, yellowish skin.","fatigue, yellowish skin",incomplete
+EVAL-00220-A,Hepatitis D,"I have joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00220-B,Hepatitis D,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00221-A,Hepatitis D,"Complaint: vomiting, fatigue, yellowish skin, dark urine, nausea.","vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00221-B,Hepatitis D,"Since morning I am feeling vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00222-A,Hepatitis D,"Complaint: joint pain, fatigue, yellowish skin, dark urine, nausea.","joint pain, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00222-B,Hepatitis D,"Patient reports joint pain, fatigue.","joint pain, fatigue",incomplete
+EVAL-00223-A,Hepatitis D,"Since morning I am feeling joint pain, vomiting, yellowish skin, dark urine, nausea.","joint pain, vomiting, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00223-B,Hepatitis D,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00224-A,Hepatitis D,"I have joint pain, vomiting, fatigue, dark urine, nausea.","joint pain, vomiting, fatigue, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00224-B,Hepatitis D,"Since morning I am feeling joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00225-A,Hepatitis D,"Patient reports joint pain, vomiting, fatigue, yellowish skin, nausea.","joint pain, vomiting, fatigue, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00225-B,Hepatitis D,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00226-A,Hepatitis D,"Since morning I am feeling joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, loss of appetite, abdominal pain, yellowing of eyes",complete
+EVAL-00226-B,Hepatitis D,"I am experiencing joint pain, vomiting for two days.","joint pain, vomiting",incomplete
+EVAL-00227-A,Hepatitis D,"Complaint: joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, abdominal pain, yellowing of eyes",complete
+EVAL-00227-B,Hepatitis D,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00228-A,Hepatitis D,"Complaint: joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, yellowing of eyes",complete
+EVAL-00228-B,Hepatitis D,"Complaint: joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00229-A,Hepatitis D,"I have joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain",complete
+EVAL-00229-B,Hepatitis D,"Complaint: joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00230-A,Hepatitis E,"Patient reports joint pain, vomiting, fatigue, high fever, yellowish skin.","joint pain, vomiting, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, coma, stomach bleeding",complete
+EVAL-00230-B,Hepatitis E,"I have joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00231-A,Hepatitis E,"Since morning I am feeling joint pain, vomiting, fatigue, high fever, yellowish skin.","joint pain, vomiting, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00231-B,Hepatitis E,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00233-A,Hepatitis E,"I have vomiting, fatigue, high fever, yellowish skin, dark urine.","vomiting, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00233-B,Hepatitis E,"I have vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00234-A,Hepatitis E,"Complaint: joint pain, fatigue, high fever, yellowish skin, dark urine.","joint pain, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00234-B,Hepatitis E,"Since morning I am feeling joint pain, fatigue.","joint pain, fatigue",incomplete
+EVAL-00235-A,Hepatitis E,"Patient reports joint pain, vomiting, high fever, yellowish skin, dark urine.","joint pain, vomiting, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00235-B,Hepatitis E,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00236-A,Hepatitis E,"Complaint: joint pain, vomiting, fatigue, yellowish skin, dark urine.","joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00236-B,Hepatitis E,"Since morning I am feeling joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00237-A,Hepatitis E,"Patient reports joint pain, vomiting, fatigue, high fever, dark urine.","joint pain, vomiting, fatigue, high fever, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00237-B,Hepatitis E,"Since morning I am feeling joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00238-A,Hepatitis E,"Patient reports joint pain, vomiting, fatigue, high fever, yellowish skin.","joint pain, vomiting, fatigue, high fever, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00238-B,Hepatitis E,"Complaint: joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00239-A,Hepatitis E,"I am experiencing joint pain, vomiting, fatigue, high fever, yellowish skin for two days.","joint pain, vomiting, fatigue, high fever, yellowish skin, dark urine, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding",complete
+EVAL-00239-B,Hepatitis E,"Patient reports joint pain, vomiting.","joint pain, vomiting",incomplete
+EVAL-00240-A,Alcoholic hepatitis,"I have vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen.","vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload",complete
+EVAL-00240-B,Alcoholic hepatitis,"I have vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00242-A,Alcoholic hepatitis,"I am experiencing yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption for two days.","yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload",complete
+EVAL-00242-B,Alcoholic hepatitis,"Patient reports yellowish skin, abdominal pain.","yellowish skin, abdominal pain",incomplete
+EVAL-00243-A,Alcoholic hepatitis,"I have vomiting, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption.","vomiting, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload",complete
+EVAL-00243-B,Alcoholic hepatitis,"I have vomiting, abdominal pain.","vomiting, abdominal pain",incomplete
+EVAL-00244-A,Alcoholic hepatitis,"Patient reports vomiting, yellowish skin, swelling of stomach, distention of abdomen, history of alcohol consumption.","vomiting, yellowish skin, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload",complete
+EVAL-00244-B,Alcoholic hepatitis,"Since morning I am feeling vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00245-A,Alcoholic hepatitis,"Patient reports vomiting, yellowish skin, abdominal pain, distention of abdomen, history of alcohol consumption.","vomiting, yellowish skin, abdominal pain, distention of abdomen, history of alcohol consumption, fluid overload",complete
+EVAL-00245-B,Alcoholic hepatitis,"Since morning I am feeling vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00246-A,Alcoholic hepatitis,"I am experiencing vomiting, yellowish skin, abdominal pain, swelling of stomach, history of alcohol consumption for two days.","vomiting, yellowish skin, abdominal pain, swelling of stomach, history of alcohol consumption, fluid overload",complete
+EVAL-00246-B,Alcoholic hepatitis,"Complaint: vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00247-A,Alcoholic hepatitis,"I am experiencing vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen for two days.","vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, fluid overload",complete
+EVAL-00247-B,Alcoholic hepatitis,"Complaint: vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00248-A,Alcoholic hepatitis,"I have vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen.","vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption",complete
+EVAL-00248-B,Alcoholic hepatitis,"I have vomiting, yellowish skin.","vomiting, yellowish skin",incomplete
+EVAL-00250-A,Tuberculosis,"I have chills, vomiting, fatigue, weight loss, cough.","chills, vomiting, fatigue, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00250-B,Tuberculosis,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00252-A,Tuberculosis,"Complaint: vomiting, fatigue, weight loss, cough, high fever.","vomiting, fatigue, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00252-B,Tuberculosis,"I have vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00253-A,Tuberculosis,"Patient reports chills, fatigue, weight loss, cough, high fever.","chills, fatigue, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00253-B,Tuberculosis,"Complaint: chills, fatigue.","chills, fatigue",incomplete
+EVAL-00254-A,Tuberculosis,"Complaint: chills, vomiting, weight loss, cough, high fever.","chills, vomiting, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00254-B,Tuberculosis,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00255-A,Tuberculosis,"I am experiencing chills, vomiting, fatigue, cough, high fever for two days.","chills, vomiting, fatigue, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00255-B,Tuberculosis,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00256-A,Tuberculosis,"I have chills, vomiting, fatigue, weight loss, high fever.","chills, vomiting, fatigue, weight loss, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00256-B,Tuberculosis,"Patient reports chills, vomiting.","chills, vomiting",incomplete
+EVAL-00257-A,Tuberculosis,"Patient reports chills, vomiting, fatigue, weight loss, cough.","chills, vomiting, fatigue, weight loss, cough, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00257-B,Tuberculosis,"I have chills, vomiting.","chills, vomiting",incomplete
+EVAL-00258-A,Tuberculosis,"Patient reports chills, vomiting, fatigue, weight loss, cough.","chills, vomiting, fatigue, weight loss, cough, high fever, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00258-B,Tuberculosis,"Since morning I am feeling chills, vomiting.","chills, vomiting",incomplete
+EVAL-00259-A,Tuberculosis,"Since morning I am feeling chills, vomiting, fatigue, weight loss, cough.","chills, vomiting, fatigue, weight loss, cough, high fever, breathlessness, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum",complete
+EVAL-00259-B,Tuberculosis,"I have chills, vomiting.","chills, vomiting",incomplete
+EVAL-00260-A,Common Cold,"Patient reports continuous sneezing, chills, fatigue, cough, high fever.","continuous sneezing, chills, fatigue, cough, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00260-B,Common Cold,"Complaint: continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00262-A,Common Cold,"I am experiencing chills, fatigue, cough, high fever, headache for two days.","chills, fatigue, cough, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00262-B,Common Cold,"Complaint: chills, fatigue.","chills, fatigue",incomplete
+EVAL-00263-A,Common Cold,"Since morning I am feeling continuous sneezing, fatigue, cough, high fever, headache.","continuous sneezing, fatigue, cough, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00263-B,Common Cold,"Since morning I am feeling continuous sneezing, fatigue.","continuous sneezing, fatigue",incomplete
+EVAL-00264-A,Common Cold,"Since morning I am feeling continuous sneezing, chills, cough, high fever, headache.","continuous sneezing, chills, cough, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00264-B,Common Cold,"Since morning I am feeling continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00265-A,Common Cold,"I am experiencing continuous sneezing, chills, fatigue, high fever, headache for two days.","continuous sneezing, chills, fatigue, high fever, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00265-B,Common Cold,"I have continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00266-A,Common Cold,"Since morning I am feeling continuous sneezing, chills, fatigue, cough, headache.","continuous sneezing, chills, fatigue, cough, headache, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00266-B,Common Cold,"Patient reports continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00267-A,Common Cold,"I am experiencing continuous sneezing, chills, fatigue, cough, high fever for two days.","continuous sneezing, chills, fatigue, cough, high fever, swelled lymph nodes, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00267-B,Common Cold,"Since morning I am feeling continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00268-A,Common Cold,"Patient reports continuous sneezing, chills, fatigue, cough, high fever.","continuous sneezing, chills, fatigue, cough, high fever, headache, malaise, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00268-B,Common Cold,"Since morning I am feeling continuous sneezing, chills.","continuous sneezing, chills",incomplete
+EVAL-00269-A,Common Cold,"I have continuous sneezing, chills, fatigue, cough, high fever.","continuous sneezing, chills, fatigue, cough, high fever, headache, swelled lymph nodes, phlegm, throat irritation, redness of eyes, sinus pressure, runny nose, congestion, chest pain, loss of smell, muscle pain",complete
+EVAL-00269-B,Common Cold,"I am experiencing continuous sneezing, chills for two days.","continuous sneezing, chills",incomplete
+EVAL-00270-A,Pneumonia,"I have chills, fatigue, cough, high fever, breathlessness.","chills, fatigue, cough, high fever, breathlessness, sweating, malaise, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00270-B,Pneumonia,"I am experiencing chills, fatigue for two days.","chills, fatigue",incomplete
+EVAL-00271-A,Pneumonia,"Since morning I am feeling chills, fatigue, cough, high fever, breathlessness.","chills, fatigue, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00271-B,Pneumonia,"Since morning I am feeling chills, fatigue.","chills, fatigue",incomplete
+EVAL-00273-A,Pneumonia,"I am experiencing fatigue, cough, high fever, breathlessness, sweating for two days.","fatigue, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00273-B,Pneumonia,"Patient reports fatigue, cough.","fatigue, cough",incomplete
+EVAL-00274-A,Pneumonia,"Patient reports chills, cough, high fever, breathlessness, sweating.","chills, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00274-B,Pneumonia,"Since morning I am feeling chills, cough.","chills, cough",incomplete
+EVAL-00275-A,Pneumonia,"Since morning I am feeling chills, fatigue, high fever, breathlessness, sweating.","chills, fatigue, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00275-B,Pneumonia,"I have chills, fatigue.","chills, fatigue",incomplete
+EVAL-00276-A,Pneumonia,"Since morning I am feeling chills, fatigue, cough, breathlessness, sweating.","chills, fatigue, cough, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00276-B,Pneumonia,"I am experiencing chills, fatigue for two days.","chills, fatigue",incomplete
+EVAL-00277-A,Pneumonia,"Patient reports chills, fatigue, cough, high fever, sweating.","chills, fatigue, cough, high fever, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00277-B,Pneumonia,"Patient reports chills, fatigue.","chills, fatigue",incomplete
+EVAL-00278-A,Pneumonia,"I have chills, fatigue, cough, high fever, breathlessness.","chills, fatigue, cough, high fever, breathlessness, malaise, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00278-B,Pneumonia,"Patient reports chills, fatigue.","chills, fatigue",incomplete
+EVAL-00279-A,Pneumonia,"Patient reports chills, fatigue, cough, high fever, breathlessness.","chills, fatigue, cough, high fever, breathlessness, sweating, phlegm, chest pain, fast heart rate, rusty sputum",complete
+EVAL-00279-B,Pneumonia,"Complaint: chills, fatigue.","chills, fatigue",incomplete
+EVAL-00280-A,Dimorphic hemmorhoids(piles),"I am experiencing constipation, pain during bowel movements, pain in anal region, bloody stool, irritation in anus for two days.","constipation, pain during bowel movements, pain in anal region, bloody stool, irritation in anus",complete
+EVAL-00280-B,Dimorphic hemmorhoids(piles),"Complaint: constipation, pain during bowel movements.","constipation, pain during bowel movements",incomplete
+EVAL-00283-A,Dimorphic hemmorhoids(piles),"Patient reports pain during bowel movements, pain in anal region, bloody stool, irritation in anus.","pain during bowel movements, pain in anal region, bloody stool, irritation in anus",complete
+EVAL-00283-B,Dimorphic hemmorhoids(piles),"I have pain during bowel movements, pain in anal region.","pain during bowel movements, pain in anal region",incomplete
+EVAL-00284-A,Dimorphic hemmorhoids(piles),"I have constipation, pain in anal region, bloody stool, irritation in anus.","constipation, pain in anal region, bloody stool, irritation in anus",complete
+EVAL-00284-B,Dimorphic hemmorhoids(piles),"Patient reports constipation, pain in anal region.","constipation, pain in anal region",incomplete
+EVAL-00285-A,Dimorphic hemmorhoids(piles),"Since morning I am feeling constipation, pain during bowel movements, bloody stool, irritation in anus.","constipation, pain during bowel movements, bloody stool, irritation in anus",complete
+EVAL-00285-B,Dimorphic hemmorhoids(piles),"Complaint: constipation, pain during bowel movements.","constipation, pain during bowel movements",incomplete
+EVAL-00286-A,Dimorphic hemmorhoids(piles),"Patient reports constipation, pain during bowel movements, pain in anal region, irritation in anus.","constipation, pain during bowel movements, pain in anal region, irritation in anus",complete
+EVAL-00286-B,Dimorphic hemmorhoids(piles),"I have constipation, pain during bowel movements.","constipation, pain during bowel movements",incomplete
+EVAL-00287-A,Dimorphic hemmorhoids(piles),"I have constipation, pain during bowel movements, pain in anal region, bloody stool.","constipation, pain during bowel movements, pain in anal region, bloody stool",complete
+EVAL-00287-B,Dimorphic hemmorhoids(piles),"Complaint: constipation, pain during bowel movements.","constipation, pain during bowel movements",incomplete
+EVAL-00290-A,Heart attack,"I am experiencing vomiting, breathlessness, sweating, chest pain for two days.","vomiting, breathlessness, sweating, chest pain",complete
+EVAL-00290-B,Heart attack,"Patient reports vomiting, breathlessness.","vomiting, breathlessness",incomplete
+EVAL-00292-A,Heart attack,"Patient reports breathlessness, sweating, chest pain.","breathlessness, sweating, chest pain",complete
+EVAL-00292-B,Heart attack,"I am experiencing breathlessness, sweating for two days.","breathlessness, sweating",incomplete
+EVAL-00293-A,Heart attack,"Complaint: vomiting, sweating, chest pain.","vomiting, sweating, chest pain",complete
+EVAL-00293-B,Heart attack,"Complaint: vomiting, sweating.","vomiting, sweating",incomplete
+EVAL-00294-A,Heart attack,"I have vomiting, breathlessness, chest pain.","vomiting, breathlessness, chest pain",complete
+EVAL-00294-B,Heart attack,"I am experiencing vomiting, breathlessness for two days.","vomiting, breathlessness",incomplete
+EVAL-00295-A,Heart attack,"Complaint: vomiting, breathlessness, sweating.","vomiting, breathlessness, sweating",complete
+EVAL-00295-B,Heart attack,"Since morning I am feeling vomiting, breathlessness.","vomiting, breathlessness",incomplete
+EVAL-00300-A,Varicose veins,"Patient reports fatigue, cramps, bruising, obesity, swollen legs.","fatigue, cramps, bruising, obesity, swollen legs, swollen blood vessels, prominent veins on calf",complete
+EVAL-00300-B,Varicose veins,"I have fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00302-A,Varicose veins,"I am experiencing cramps, bruising, obesity, swollen legs, swollen blood vessels for two days.","cramps, bruising, obesity, swollen legs, swollen blood vessels, prominent veins on calf",complete
+EVAL-00302-B,Varicose veins,"I have cramps, bruising.","cramps, bruising",incomplete
+EVAL-00303-A,Varicose veins,"Complaint: fatigue, bruising, obesity, swollen legs, swollen blood vessels.","fatigue, bruising, obesity, swollen legs, swollen blood vessels, prominent veins on calf",complete
+EVAL-00303-B,Varicose veins,"Complaint: fatigue, bruising.","fatigue, bruising",incomplete
+EVAL-00304-A,Varicose veins,"Since morning I am feeling fatigue, cramps, obesity, swollen legs, swollen blood vessels.","fatigue, cramps, obesity, swollen legs, swollen blood vessels, prominent veins on calf",complete
+EVAL-00304-B,Varicose veins,"Patient reports fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00305-A,Varicose veins,"I am experiencing fatigue, cramps, bruising, swollen legs, swollen blood vessels for two days.","fatigue, cramps, bruising, swollen legs, swollen blood vessels, prominent veins on calf",complete
+EVAL-00305-B,Varicose veins,"I have fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00306-A,Varicose veins,"Patient reports fatigue, cramps, bruising, obesity, swollen blood vessels.","fatigue, cramps, bruising, obesity, swollen blood vessels, prominent veins on calf",complete
+EVAL-00306-B,Varicose veins,"Complaint: fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00307-A,Varicose veins,"Patient reports fatigue, cramps, bruising, obesity, swollen legs.","fatigue, cramps, bruising, obesity, swollen legs, prominent veins on calf",complete
+EVAL-00307-B,Varicose veins,"I have fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00308-A,Varicose veins,"Patient reports fatigue, cramps, bruising, obesity, swollen legs.","fatigue, cramps, bruising, obesity, swollen legs, swollen blood vessels",complete
+EVAL-00308-B,Varicose veins,"Complaint: fatigue, cramps.","fatigue, cramps",incomplete
+EVAL-00310-A,Hypothyroidism,"Patient reports fatigue, weight gain, cold hands and feets, mood swings, lethargy.","fatigue, weight gain, cold hands and feets, mood swings, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00310-B,Hypothyroidism,"I am experiencing fatigue, weight gain for two days.","fatigue, weight gain",incomplete
+EVAL-00312-A,Hypothyroidism,"Patient reports weight gain, cold hands and feets, mood swings, lethargy, dizziness.","weight gain, cold hands and feets, mood swings, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00312-B,Hypothyroidism,"I am experiencing weight gain, cold hands and feets for two days.","weight gain, cold hands and feets",incomplete
+EVAL-00314-A,Hypothyroidism,"Patient reports fatigue, cold hands and feets, mood swings, lethargy, dizziness.","fatigue, cold hands and feets, mood swings, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00314-B,Hypothyroidism,"Complaint: fatigue, cold hands and feets.","fatigue, cold hands and feets",incomplete
+EVAL-00315-A,Hypothyroidism,"Since morning I am feeling fatigue, weight gain, mood swings, lethargy, dizziness.","fatigue, weight gain, mood swings, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00315-B,Hypothyroidism,"Since morning I am feeling fatigue, weight gain.","fatigue, weight gain",incomplete
+EVAL-00316-A,Hypothyroidism,"I am experiencing fatigue, weight gain, cold hands and feets, lethargy, dizziness for two days.","fatigue, weight gain, cold hands and feets, lethargy, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00316-B,Hypothyroidism,"I am experiencing fatigue, weight gain for two days.","fatigue, weight gain",incomplete
+EVAL-00317-A,Hypothyroidism,"Since morning I am feeling fatigue, weight gain, cold hands and feets, mood swings, dizziness.","fatigue, weight gain, cold hands and feets, mood swings, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00317-B,Hypothyroidism,"Complaint: fatigue, weight gain.","fatigue, weight gain",incomplete
+EVAL-00318-A,Hypothyroidism,"Complaint: fatigue, weight gain, cold hands and feets, mood swings, lethargy.","fatigue, weight gain, cold hands and feets, mood swings, lethargy, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00318-B,Hypothyroidism,"Patient reports fatigue, weight gain.","fatigue, weight gain",incomplete
+EVAL-00319-A,Hypothyroidism,"I am experiencing fatigue, weight gain, cold hands and feets, mood swings, lethargy for two days.","fatigue, weight gain, cold hands and feets, mood swings, lethargy, dizziness, enlarged thyroid, brittle nails, swollen extremeties, depression, irritability, abnormal menstruation",complete
+EVAL-00319-B,Hypothyroidism,"Complaint: fatigue, weight gain.","fatigue, weight gain",incomplete
+EVAL-00320-A,Hyperthyroidism,"I have fatigue, mood swings, weight loss, restlessness, sweating.","fatigue, mood swings, weight loss, restlessness, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00320-B,Hyperthyroidism,"Patient reports fatigue, mood swings.","fatigue, mood swings",incomplete
+EVAL-00322-A,Hyperthyroidism,"Patient reports mood swings, weight loss, restlessness, sweating, diarrhoea.","mood swings, weight loss, restlessness, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00322-B,Hyperthyroidism,"Since morning I am feeling mood swings, weight loss.","mood swings, weight loss",incomplete
+EVAL-00323-A,Hyperthyroidism,"I am experiencing fatigue, weight loss, restlessness, sweating, diarrhoea for two days.","fatigue, weight loss, restlessness, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00323-B,Hyperthyroidism,"Complaint: fatigue, weight loss.","fatigue, weight loss",incomplete
+EVAL-00324-A,Hyperthyroidism,"Complaint: fatigue, mood swings, restlessness, sweating, diarrhoea.","fatigue, mood swings, restlessness, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00324-B,Hyperthyroidism,"Patient reports fatigue, mood swings.","fatigue, mood swings",incomplete
+EVAL-00325-A,Hyperthyroidism,"I am experiencing fatigue, mood swings, weight loss, sweating, diarrhoea for two days.","fatigue, mood swings, weight loss, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00325-B,Hyperthyroidism,"I am experiencing fatigue, mood swings for two days.","fatigue, mood swings",incomplete
+EVAL-00326-A,Hyperthyroidism,"I am experiencing fatigue, mood swings, weight loss, restlessness, diarrhoea for two days.","fatigue, mood swings, weight loss, restlessness, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00326-B,Hyperthyroidism,"Since morning I am feeling fatigue, mood swings.","fatigue, mood swings",incomplete
+EVAL-00327-A,Hyperthyroidism,"Complaint: fatigue, mood swings, weight loss, restlessness, sweating.","fatigue, mood swings, weight loss, restlessness, sweating, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00327-B,Hyperthyroidism,"I am experiencing fatigue, mood swings for two days.","fatigue, mood swings",incomplete
+EVAL-00328-A,Hyperthyroidism,"Since morning I am feeling fatigue, mood swings, weight loss, restlessness, sweating.","fatigue, mood swings, weight loss, restlessness, sweating, diarrhoea, excessive hunger, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00328-B,Hyperthyroidism,"I have fatigue, mood swings.","fatigue, mood swings",incomplete
+EVAL-00329-A,Hyperthyroidism,"Patient reports fatigue, mood swings, weight loss, restlessness, sweating.","fatigue, mood swings, weight loss, restlessness, sweating, diarrhoea, fast heart rate, muscle weakness, irritability, abnormal menstruation",complete
+EVAL-00329-B,Hyperthyroidism,"Complaint: fatigue, mood swings.","fatigue, mood swings",incomplete
+EVAL-00330-A,Hypoglycemia,"Complaint: vomiting, fatigue, anxiety, sweating, headache.","vomiting, fatigue, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, slurred speech, irritability, palpitations",complete
+EVAL-00330-B,Hypoglycemia,"Patient reports vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00331-A,Hypoglycemia,"I have vomiting, fatigue, anxiety, sweating, headache.","vomiting, fatigue, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00331-B,Hypoglycemia,"Since morning I am feeling vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00333-A,Hypoglycemia,"Patient reports fatigue, anxiety, sweating, headache, nausea.","fatigue, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00333-B,Hypoglycemia,"Since morning I am feeling fatigue, anxiety.","fatigue, anxiety",incomplete
+EVAL-00334-A,Hypoglycemia,"Since morning I am feeling vomiting, anxiety, sweating, headache, nausea.","vomiting, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00334-B,Hypoglycemia,"Since morning I am feeling vomiting, anxiety.","vomiting, anxiety",incomplete
+EVAL-00335-A,Hypoglycemia,"I have vomiting, fatigue, sweating, headache, nausea.","vomiting, fatigue, sweating, headache, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00335-B,Hypoglycemia,"I have vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00336-A,Hypoglycemia,"Since morning I am feeling vomiting, fatigue, anxiety, headache, nausea.","vomiting, fatigue, anxiety, headache, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00336-B,Hypoglycemia,"I am experiencing vomiting, fatigue for two days.","vomiting, fatigue",incomplete
+EVAL-00337-A,Hypoglycemia,"Complaint: vomiting, fatigue, anxiety, sweating, nausea.","vomiting, fatigue, anxiety, sweating, nausea, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00337-B,Hypoglycemia,"I have vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00338-A,Hypoglycemia,"I am experiencing vomiting, fatigue, anxiety, sweating, headache for two days.","vomiting, fatigue, anxiety, sweating, headache, blurred and distorted vision, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00338-B,Hypoglycemia,"I am experiencing vomiting, fatigue for two days.","vomiting, fatigue",incomplete
+EVAL-00339-A,Hypoglycemia,"Complaint: vomiting, fatigue, anxiety, sweating, headache.","vomiting, fatigue, anxiety, sweating, headache, nausea, excessive hunger, drying and tingling lips, slurred speech, irritability, palpitations",complete
+EVAL-00339-B,Hypoglycemia,"Since morning I am feeling vomiting, fatigue.","vomiting, fatigue",incomplete
+EVAL-00340-A,Osteoarthristis,"I am experiencing joint pain, neck pain, knee pain, hip joint pain, swelling joints for two days.","joint pain, neck pain, knee pain, hip joint pain, swelling joints, painful walking",complete
+EVAL-00340-B,Osteoarthristis,"I am experiencing joint pain, neck pain for two days.","joint pain, neck pain",incomplete
+EVAL-00342-A,Osteoarthristis,"I am experiencing neck pain, knee pain, hip joint pain, swelling joints, painful walking for two days.","neck pain, knee pain, hip joint pain, swelling joints, painful walking",complete
+EVAL-00342-B,Osteoarthristis,"Since morning I am feeling neck pain, knee pain.","neck pain, knee pain",incomplete
+EVAL-00343-A,Osteoarthristis,"Since morning I am feeling joint pain, knee pain, hip joint pain, swelling joints, painful walking.","joint pain, knee pain, hip joint pain, swelling joints, painful walking",complete
+EVAL-00343-B,Osteoarthristis,"I have joint pain, knee pain.","joint pain, knee pain",incomplete
+EVAL-00344-A,Osteoarthristis,"I have joint pain, neck pain, hip joint pain, swelling joints, painful walking.","joint pain, neck pain, hip joint pain, swelling joints, painful walking",complete
+EVAL-00344-B,Osteoarthristis,"I am experiencing joint pain, neck pain for two days.","joint pain, neck pain",incomplete
+EVAL-00345-A,Osteoarthristis,"Since morning I am feeling joint pain, neck pain, knee pain, swelling joints, painful walking.","joint pain, neck pain, knee pain, swelling joints, painful walking",complete
+EVAL-00345-B,Osteoarthristis,"Since morning I am feeling joint pain, neck pain.","joint pain, neck pain",incomplete
+EVAL-00346-A,Osteoarthristis,"Complaint: joint pain, neck pain, knee pain, hip joint pain, painful walking.","joint pain, neck pain, knee pain, hip joint pain, painful walking",complete
+EVAL-00346-B,Osteoarthristis,"I am experiencing joint pain, neck pain for two days.","joint pain, neck pain",incomplete
+EVAL-00347-A,Osteoarthristis,"I have joint pain, neck pain, knee pain, hip joint pain, swelling joints.","joint pain, neck pain, knee pain, hip joint pain, swelling joints",complete
+EVAL-00347-B,Osteoarthristis,"Complaint: joint pain, neck pain.","joint pain, neck pain",incomplete
+EVAL-00350-A,Arthritis,"Since morning I am feeling muscle weakness, stiff neck, swelling joints, movement stiffness, painful walking.","muscle weakness, stiff neck, swelling joints, movement stiffness, painful walking",complete
+EVAL-00350-B,Arthritis,"I have muscle weakness, stiff neck.","muscle weakness, stiff neck",incomplete
+EVAL-00352-A,Arthritis,"I am experiencing stiff neck, swelling joints, movement stiffness, painful walking for two days.","stiff neck, swelling joints, movement stiffness, painful walking",complete
+EVAL-00352-B,Arthritis,"Since morning I am feeling stiff neck, swelling joints.","stiff neck, swelling joints",incomplete
+EVAL-00353-A,Arthritis,"I am experiencing muscle weakness, swelling joints, movement stiffness, painful walking for two days.","muscle weakness, swelling joints, movement stiffness, painful walking",complete
+EVAL-00353-B,Arthritis,"Complaint: muscle weakness, swelling joints.","muscle weakness, swelling joints",incomplete
+EVAL-00354-A,Arthritis,"Complaint: muscle weakness, stiff neck, movement stiffness, painful walking.","muscle weakness, stiff neck, movement stiffness, painful walking",complete
+EVAL-00354-B,Arthritis,"Complaint: muscle weakness, stiff neck.","muscle weakness, stiff neck",incomplete
+EVAL-00355-A,Arthritis,"Patient reports muscle weakness, stiff neck, swelling joints, painful walking.","muscle weakness, stiff neck, swelling joints, painful walking",complete
+EVAL-00355-B,Arthritis,"I am experiencing muscle weakness, stiff neck for two days.","muscle weakness, stiff neck",incomplete
+EVAL-00357-A,Arthritis,"Complaint: muscle weakness, stiff neck, swelling joints, movement stiffness.","muscle weakness, stiff neck, swelling joints, movement stiffness",complete
+EVAL-00357-B,Arthritis,"Complaint: muscle weakness, stiff neck.","muscle weakness, stiff neck",incomplete
+EVAL-00360-A,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing vomiting, headache, nausea, spinning movements, loss of balance for two days.","vomiting, headache, nausea, spinning movements, loss of balance, unsteadiness",complete
+EVAL-00360-B,(vertigo) Paroymsal  Positional Vertigo,"Complaint: vomiting, headache.","vomiting, headache",incomplete
+EVAL-00362-A,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing headache, nausea, spinning movements, loss of balance, unsteadiness for two days.","headache, nausea, spinning movements, loss of balance, unsteadiness",complete
+EVAL-00362-B,(vertigo) Paroymsal  Positional Vertigo,"Since morning I am feeling headache, nausea.","headache, nausea",incomplete
+EVAL-00363-A,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing vomiting, nausea, spinning movements, loss of balance, unsteadiness for two days.","vomiting, nausea, spinning movements, loss of balance, unsteadiness",complete
+EVAL-00363-B,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing vomiting, nausea for two days.","vomiting, nausea",incomplete
+EVAL-00364-A,(vertigo) Paroymsal  Positional Vertigo,"Patient reports vomiting, headache, spinning movements, loss of balance, unsteadiness.","vomiting, headache, spinning movements, loss of balance, unsteadiness",complete
+EVAL-00364-B,(vertigo) Paroymsal  Positional Vertigo,"Since morning I am feeling vomiting, headache.","vomiting, headache",incomplete
+EVAL-00365-A,(vertigo) Paroymsal  Positional Vertigo,"Patient reports vomiting, headache, nausea, loss of balance, unsteadiness.","vomiting, headache, nausea, loss of balance, unsteadiness",complete
+EVAL-00365-B,(vertigo) Paroymsal  Positional Vertigo,"Complaint: vomiting, headache.","vomiting, headache",incomplete
+EVAL-00366-A,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing vomiting, headache, nausea, spinning movements, unsteadiness for two days.","vomiting, headache, nausea, spinning movements, unsteadiness",complete
+EVAL-00366-B,(vertigo) Paroymsal  Positional Vertigo,"Since morning I am feeling vomiting, headache.","vomiting, headache",incomplete
+EVAL-00367-A,(vertigo) Paroymsal  Positional Vertigo,"Patient reports vomiting, headache, nausea, spinning movements, loss of balance.","vomiting, headache, nausea, spinning movements, loss of balance",complete
+EVAL-00367-B,(vertigo) Paroymsal  Positional Vertigo,"I am experiencing vomiting, headache for two days.","vomiting, headache",incomplete
+EVAL-00370-A,Acne,"I have skin rash, pus filled pimples, blackheads, scurring.","skin rash, pus filled pimples, blackheads, scurring",complete
+EVAL-00370-B,Acne,"Patient reports skin rash, pus filled pimples.","skin rash, pus filled pimples",incomplete
+EVAL-00372-A,Acne,"Since morning I am feeling pus filled pimples, blackheads, scurring.","pus filled pimples, blackheads, scurring",complete
+EVAL-00372-B,Acne,"Patient reports pus filled pimples, blackheads.","pus filled pimples, blackheads",incomplete
+EVAL-00373-A,Acne,"Patient reports skin rash, blackheads, scurring.","skin rash, blackheads, scurring",complete
+EVAL-00373-B,Acne,"Patient reports skin rash, blackheads.","skin rash, blackheads",incomplete
+EVAL-00374-A,Acne,"Complaint: skin rash, pus filled pimples, scurring.","skin rash, pus filled pimples, scurring",complete
+EVAL-00374-B,Acne,"I have skin rash, pus filled pimples.","skin rash, pus filled pimples",incomplete
+EVAL-00375-A,Acne,"Since morning I am feeling skin rash, pus filled pimples, blackheads.","skin rash, pus filled pimples, blackheads",complete
+EVAL-00375-B,Acne,"Since morning I am feeling skin rash, pus filled pimples.","skin rash, pus filled pimples",incomplete
+EVAL-00380-A,Urinary tract infection,"Since morning I am feeling burning micturition, bladder discomfort, foul smell of urine, continuous feel of urine.","burning micturition, bladder discomfort, foul smell of urine, continuous feel of urine",complete
+EVAL-00380-B,Urinary tract infection,"I am experiencing burning micturition, bladder discomfort for two days.","burning micturition, bladder discomfort",incomplete
+EVAL-00382-A,Urinary tract infection,"Since morning I am feeling bladder discomfort, foul smell of urine, continuous feel of urine.","bladder discomfort, foul smell of urine, continuous feel of urine",complete
+EVAL-00382-B,Urinary tract infection,"Since morning I am feeling bladder discomfort, foul smell of urine.","bladder discomfort, foul smell of urine",incomplete
+EVAL-00383-A,Urinary tract infection,"I have burning micturition, foul smell of urine, continuous feel of urine.","burning micturition, foul smell of urine, continuous feel of urine",complete
+EVAL-00383-B,Urinary tract infection,"I am experiencing burning micturition, foul smell of urine for two days.","burning micturition, foul smell of urine",incomplete
+EVAL-00384-A,Urinary tract infection,"I am experiencing burning micturition, bladder discomfort, continuous feel of urine for two days.","burning micturition, bladder discomfort, continuous feel of urine",complete
+EVAL-00384-B,Urinary tract infection,"Patient reports burning micturition, bladder discomfort.","burning micturition, bladder discomfort",incomplete
+EVAL-00385-A,Urinary tract infection,"Complaint: burning micturition, bladder discomfort, foul smell of urine.","burning micturition, bladder discomfort, foul smell of urine",complete
+EVAL-00385-B,Urinary tract infection,"I am experiencing burning micturition, bladder discomfort for two days.","burning micturition, bladder discomfort",incomplete
+EVAL-00390-A,Psoriasis,"I am experiencing skin rash, joint pain, skin peeling, silver like dusting, small dents in nails for two days.","skin rash, joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails",complete
+EVAL-00390-B,Psoriasis,"I have skin rash, joint pain.","skin rash, joint pain",incomplete
+EVAL-00392-A,Psoriasis,"Since morning I am feeling joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails.","joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails",complete
+EVAL-00392-B,Psoriasis,"I am experiencing joint pain, skin peeling for two days.","joint pain, skin peeling",incomplete
+EVAL-00393-A,Psoriasis,"I am experiencing skin rash, skin peeling, silver like dusting, small dents in nails, inflammatory nails for two days.","skin rash, skin peeling, silver like dusting, small dents in nails, inflammatory nails",complete
+EVAL-00393-B,Psoriasis,"Complaint: skin rash, skin peeling.","skin rash, skin peeling",incomplete
+EVAL-00394-A,Psoriasis,"I have skin rash, joint pain, silver like dusting, small dents in nails, inflammatory nails.","skin rash, joint pain, silver like dusting, small dents in nails, inflammatory nails",complete
+EVAL-00394-B,Psoriasis,"Complaint: skin rash, joint pain.","skin rash, joint pain",incomplete
+EVAL-00395-A,Psoriasis,"I am experiencing skin rash, joint pain, skin peeling, small dents in nails, inflammatory nails for two days.","skin rash, joint pain, skin peeling, small dents in nails, inflammatory nails",complete
+EVAL-00395-B,Psoriasis,"I am experiencing skin rash, joint pain for two days.","skin rash, joint pain",incomplete
+EVAL-00396-A,Psoriasis,"I have skin rash, joint pain, skin peeling, silver like dusting, inflammatory nails.","skin rash, joint pain, skin peeling, silver like dusting, inflammatory nails",complete
+EVAL-00396-B,Psoriasis,"Patient reports skin rash, joint pain.","skin rash, joint pain",incomplete
+EVAL-00397-A,Psoriasis,"Patient reports skin rash, joint pain, skin peeling, silver like dusting, small dents in nails.","skin rash, joint pain, skin peeling, silver like dusting, small dents in nails",complete
+EVAL-00397-B,Psoriasis,"I am experiencing skin rash, joint pain for two days.","skin rash, joint pain",incomplete
+EVAL-00400-A,Impetigo,"I am experiencing skin rash, high fever, blister, red sore around nose, yellow crust ooze for two days.","skin rash, high fever, blister, red sore around nose, yellow crust ooze",complete
+EVAL-00400-B,Impetigo,"Complaint: skin rash, high fever.","skin rash, high fever",incomplete
+EVAL-00402-A,Impetigo,"Complaint: high fever, blister, red sore around nose, yellow crust ooze.","high fever, blister, red sore around nose, yellow crust ooze",complete
+EVAL-00402-B,Impetigo,"Complaint: high fever, blister.","high fever, blister",incomplete
+EVAL-00403-A,Impetigo,"Since morning I am feeling skin rash, blister, red sore around nose, yellow crust ooze.","skin rash, blister, red sore around nose, yellow crust ooze",complete
+EVAL-00403-B,Impetigo,"I am experiencing skin rash, blister for two days.","skin rash, blister",incomplete
+EVAL-00405-A,Impetigo,"Since morning I am feeling skin rash, high fever, red sore around nose, yellow crust ooze.","skin rash, high fever, red sore around nose, yellow crust ooze",complete
+EVAL-00405-B,Impetigo,"Patient reports skin rash, high fever.","skin rash, high fever",incomplete
+EVAL-00406-A,Impetigo,"I am experiencing skin rash, high fever, blister, yellow crust ooze for two days.","skin rash, high fever, blister, yellow crust ooze",complete
+EVAL-00406-B,Impetigo,"I am experiencing skin rash, high fever for two days.","skin rash, high fever",incomplete
+EVAL-00407-A,Impetigo,"I have skin rash, high fever, blister, red sore around nose.","skin rash, high fever, blister, red sore around nose",complete
+EVAL-00407-B,Impetigo,"I am experiencing skin rash, high fever for two days.","skin rash, high fever",incomplete

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Vita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Virtual Vita</h2>
+                <button id="new-chat-btn" class="icon-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                </button>
+            </div>
+            <div class="chat-history">
+                 <p class="history-label">Recent Chats</p>
+                 <div class="history-item active">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    Symptom Analysis
+                 </div>
+            </div>
+            <div class="sidebar-footer">
+                <a href="/admin.html" style="text-decoration: none; display: flex; align-items: center; gap: 10px; color: var(--text-secondary); width: 100%;">
+                    <div class="user-profile" style="width: 100%;">
+                        <div class="avatar" style="background:var(--accent-color);">👩‍⚕️</div>
+                        <span>Doctor Login</span>
+                    </div>
+                </a>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            <div class="chat-header">
+                <h3>🩺 Health AI Assistant</h3>
+            </div>
+            
+            <div class="messages-container" id="chat-box">
+                <!-- Welcome Message -->
+                <div class="message bot">
+                    <div class="avatar">AI</div>
+                    <div class="message-content">
+                        Hello! I am Virtual Vita, your Intake Nurse. Please let me know your Name, Age, Weight, and Phone number before we begin discussing your symptoms.
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea id="user-input" placeholder="Message Virtual Vita..." rows="1" oninput="this.style.height = '';this.style.height = this.scrollHeight + 'px'"></textarea>
+                    <div class="action-buttons">
+                        <button id="lang-toggle" class="lang-btn" title="Switch Language (Current: EN)">
+                            EN
+                        </button>
+                        <button id="mic-btn" class="send-btn" title="Start voice typing">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                        </button>
+                        <button id="send-btn" class="send-btn" title="Send message">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </div>
+                </div>
+                <p class="disclaimer">Virtual Vita is an AI. It can make mistakes. Always consult a real doctor for medical advice.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Hidden Template for PDF Generation -->
+    <div id="pdf-report-container" style="display: none;">
+        <div id="medical-report-template" style="padding: 40px; font-family: 'Inter', sans-serif; color: #000; background: #fff; width: 800px;">
+            <div style="border-bottom: 3px solid #10a37f; padding-bottom: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: flex-end;">
+                <div>
+                    <h1 style="margin: 0; color: #10a37f; font-size: 28px;">Virtual Vita Clinic</h1>
+                    <p style="margin: 5px 0 0 0; color: #666; font-size: 14px;">Automated Clinical Intake Summary</p>
+                </div>
+                <div style="text-align: right; color: #666; font-size: 14px;">
+                    <strong>Date:</strong> <span id="report-date"></span><br>
+                    <strong>ID:</strong> <span id="report-id"></span>
+                </div>
+            </div>
+            
+            <h3 style="background: #f0f0f0; padding: 10px; margin: 0 0 15px 0; font-size: 16px; border-left: 4px solid #10a37f;">Patient Demographics</h3>
+            <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; font-size: 14px;">
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Name:</strong> <span id="report-name"></span></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Age:</strong> <span id="report-age"></span></td>
+                </tr>
+                <tr>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Weight:</strong> <span id="report-weight"></span></td>
+                    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Phone:</strong> <span id="report-phone"></span></td>
+                </tr>
+            </table>
+
+            <h3 style="background: #f0f0f0; padding: 10px; margin: 0 0 15px 0; font-size: 16px; border-left: 4px solid #10a37f;">Chief Complaint</h3>
+            <p id="report-cc" style="margin-bottom: 30px; font-size: 14px; line-height: 1.6;"></p>
+
+            <h3 style="background: #f0f0f0; padding: 10px; margin: 0 0 15px 0; font-size: 16px; border-left: 4px solid #10a37f;">History of Present Illness</h3>
+            <p id="report-hpi" style="margin-bottom: 40px; font-size: 14px; line-height: 1.6;"></p>
+
+            <div style="border-top: 1px solid #ddd; padding-top: 20px; font-size: 12px; color: #888; text-align: center;">
+                This document was generated by Virtual Vita AI. It is an intake summary and not a medical diagnosis. Please consult a physician.
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

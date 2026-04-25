@@ -1,0 +1,286 @@
+[
+    {
+        "status": "Escalated",
+        "patient_name": "Sushma",
+        "age": "19",
+        "weight": "45",
+        "phone": "8317602984",
+        "chief_complaint": "Fever of 106 degrees Fahrenheit for 5 days",
+        "history_of_present_illness": "Experiencing vomiting right after eating and a throbbing headache making the whole head feel super heavy.",
+        "triage_level": "Critical",
+        "timestamp": "2026-04-18T10:43:13.303707",
+        "id": "PT-0001",
+        "status_updated_at": "2026-04-24T22:01:50.546147"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Sushma",
+        "age": "19",
+        "weight": "45",
+        "phone": "8317602984",
+        "chief_complaint": "Fever (106\u00b0F) and severe headache",
+        "history_of_present_illness": "Symptoms started 5 days ago. Headache comes and goes.",
+        "triage_level": "High",
+        "timestamp": "2026-04-18T10:46:34.596288",
+        "id": "PT-0002"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Deepika",
+        "age": "19",
+        "weight": "45",
+        "phone": "9398368922",
+        "chief_complaint": "Mild cold",
+        "history_of_present_illness": "Symptoms started yesterday, primarily experiencing a runny nose.",
+        "triage_level": "Low",
+        "timestamp": "2026-04-20T16:05:41.998781",
+        "id": "PT-0003"
+    },
+    {
+        "status": "complete",
+        "patient_name": "Demo Patient",
+        "age": "Varies",
+        "weight": "Varies",
+        "phone": "000-000-0000",
+        "chief_complaint": "Patient stated: pranavi 17 34 9345769810",
+        "history_of_present_illness": "Mocked history due to API failure.",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-20T16:35:04.141605",
+        "id": "PT-0004"
+    },
+    {
+        "status": "Closed",
+        "patient_name": "Deepa",
+        "age": "45",
+        "weight": "64",
+        "phone": "9876543212",
+        "chief_complaint": "Severe pain in the lower back",
+        "history_of_present_illness": "Sudden onset of pain 2 days ago",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-21T08:08:18.361988",
+        "id": "PT-0005",
+        "status_updated_at": "2026-04-24T20:27:58.164997"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Deepa",
+        "age": "45",
+        "weight": "65",
+        "phone": "9876543213",
+        "chief_complaint": "Severe abdominal pain",
+        "history_of_present_illness": "Patient reports severe pain in the abdomen for the past 3 days, associated with eating and breathing",
+        "triage_level": "High",
+        "timestamp": "2026-04-21T08:12:38.584722",
+        "id": "PT-0006"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Hema",
+        "age": "34",
+        "weight": "67",
+        "phone": "9345671234",
+        "chief_complaint": "[YOUR SYMPTOMS DESCRIPTION]",
+        "history_of_present_illness": "[MORE DETAILS ABOUT YOUR SYMPTOMS]",
+        "triage_level": "[TRIAGE LEVEL, SUCH AS HIGH, MEDIUM, OR LOW]",
+        "timestamp": "2026-04-22T15:13:07.227873",
+        "id": "PT-0007"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Demo Patient",
+        "age": "Varies",
+        "weight": "Varies",
+        "phone": "000-000-0000",
+        "chief_complaint": "Input: suji, 34, 56, 9678542143",
+        "history_of_present_illness": "Note: Processed via fallback mode.",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-22T15:18:27.553288",
+        "id": "PT-0008"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Suji",
+        "age": "34",
+        "weight": "56 kg",
+        "phone": "9823657815",
+        "chief_complaint": "a severe pain in my lower obdomen",
+        "history_of_present_illness": "suji, 34, 56, 9823657815 i am having a severe pain in my lower obdomen",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-22T16:03:44.128221",
+        "id": "PT-0009"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Suji",
+        "age": "34",
+        "weight": "56 kg",
+        "phone": "9823657815",
+        "chief_complaint": "rashes from past 2 days",
+        "history_of_present_illness": "suji, 34, 56, 9823657815 i am having rashes from past 2 days from past 2 days a light fever with headache too",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-22T16:08:10.440646",
+        "id": "PT-0010"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Hiiii",
+        "age": "23",
+        "weight": "45 kg",
+        "phone": "9412366698",
+        "chief_complaint": "a light pain right below my left chest",
+        "history_of_present_illness": "hiiii, i am madhu, age 23, wt 45, phno: 9412366698 i am having a light pain right below my left chest its paining continiously",
+        "triage_level": "Medium",
+        "timestamp": "2026-04-22T16:25:45.248671",
+        "id": "PT-0011"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Ravi",
+        "age": "34",
+        "weight": "56 kg",
+        "phone": "92740073122",
+        "chief_complaint": "a severe head ache",
+        "history_of_present_illness": "ravi, 34, 56, 92740073122 i am having a severe head ache since a month it comes and goes it pains a lot on my left and sometimes over all",
+        "triage_level": "Low",
+        "risk_score": 10,
+        "risk_reasons": [
+            "No clear symptom pattern detected yet."
+        ],
+        "symptoms": [],
+        "timestamp": "2026-04-22T21:41:44.548547",
+        "id": "PT-0012"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Jyo",
+        "age": "45",
+        "weight": "56 kg",
+        "phone": "9133350892",
+        "chief_complaint": "a breathing problem",
+        "history_of_present_illness": "jyo, 45, 56, 9133350892 i am having a breathing problem since this morning yess i have chest tightness",
+        "triage_level": "Low",
+        "risk_score": 10,
+        "risk_reasons": [
+            "No clear symptom pattern detected yet."
+        ],
+        "symptoms": [],
+        "preliminary_prediction": null,
+        "timestamp": "2026-04-22T21:52:40.237220",
+        "id": "PT-0013"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Sruthi",
+        "age": "23",
+        "weight": "45 kg",
+        "phone": "9003751248",
+        "chief_complaint": "headache",
+        "history_of_present_illness": "sruthi, 23, 45, 9003751248 severe body pains headache scince 4 days to my left",
+        "triage_level": "Low",
+        "risk_score": 30,
+        "risk_reasons": [
+            "Severity index from 1 reported symptom(s)."
+        ],
+        "symptoms": [
+            "headache"
+        ],
+        "preliminary_prediction": null,
+        "decision_path": "rule_engine:clear -> ml_model",
+        "timestamp": "2026-04-23T09:47:01.026470",
+        "id": "PT-0014"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Renu",
+        "age": "22",
+        "weight": "45 kg",
+        "phone": "8372618700",
+        "chief_complaint": "fever",
+        "history_of_present_illness": "renu, 22, 45, 8372618700 fever 3 days severe and also have vomitings",
+        "triage_level": "Low",
+        "risk_score": 10,
+        "risk_reasons": [
+            "No clear symptom pattern detected yet."
+        ],
+        "symptoms": [],
+        "preliminary_prediction": null,
+        "decision_path": "rule_engine:clear -> ml_model",
+        "timestamp": "2026-04-23T09:55:18.069974",
+        "id": "PT-0015"
+    },
+    {
+        "status": "In Review",
+        "patient_name": "\u0c38\u0c2e\u0c40\u0c30\u0c3e",
+        "age": "23",
+        "weight": "23 kg",
+        "phone": "9492350851",
+        "chief_complaint": "\u0c1c\u0c4d\u0c35\u0c30\u0c02",
+        "history_of_present_illness": "23 9 4 9 2 3 5 0 8 5 1 \u0c1c\u0c4d\u0c35\u0c30\u0c02 3 \u0c30\u0c4b\u0c1c\u0c41\u0c32 \u0c28\u0c41\u0c02\u0c21\u0c3f \u0c38\u0c4d\u0c35\u0c32\u0c4d\u0c2a\u0c02 \u0c26\u0c17\u0c4d\u0c17\u0c41 \u0c09\u0c02\u0c26\u0c3f",
+        "triage_level": "Medium",
+        "risk_score": 38,
+        "risk_reasons": [
+            "Severity index from 2 reported symptom(s).",
+            "Multiple concurrent symptoms reported."
+        ],
+        "symptoms": [
+            "fever",
+            "cough"
+        ],
+        "preliminary_prediction": {
+            "disease": "Bronchial Asthma",
+            "description": "Bronchial asthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling, the air path produces excess mucus making it hard to breathe, which results in coughing, short breath, and wheezing. The disease is chronic and interferes with daily working.",
+            "precautions": "switch to loose cloothing, take deep breaths, get away from trigger, seek help",
+            "symptoms_used": [
+                "fever",
+                "cough"
+            ]
+        },
+        "decision_path": "rule_engine:clear -> ml_model",
+        "timestamp": "2026-04-23T16:21:06.562777",
+        "id": "PT-0016",
+        "status_updated_at": "2026-04-24T22:01:26.169184"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "Nithya",
+        "age": "34",
+        "weight": "54 kg",
+        "phone": "98412386445",
+        "chief_complaint": "a severe headache",
+        "history_of_present_illness": "nithya, 34, 54, 98412386445 i am having a severe headache from 3 days on my back of the head",
+        "triage_level": "Medium",
+        "risk_score": 40,
+        "risk_reasons": [
+            "Severity index from 1 reported symptom(s).",
+            "Severe symptom intensity reported by patient."
+        ],
+        "symptoms": [
+            "headache"
+        ],
+        "preliminary_prediction": null,
+        "decision_path": "rule_engine:clear -> ml_model",
+        "timestamp": "2026-04-25T09:48:15.779837",
+        "id": "PT-0017"
+    },
+    {
+        "status": "Waiting",
+        "patient_name": "\u0c36\u0c4d\u0c30\u0c40",
+        "age": "19",
+        "weight": "45 kg",
+        "phone": "9243627686",
+        "chief_complaint": "\u0c28\u0c3e\u0c15\u0c41 \u0c24\u0c40\u0c35\u0c4d\u0c30\u0c2e\u0c48\u0c28 \u0c24\u0c32\u0c28\u0c4a\u0c2a\u0c4d\u0c2a\u0c3f \u0c09\u0c02\u0c26\u0c3f",
+        "history_of_present_illness": "\u0c36\u0c4d\u0c30\u0c40, 19, 45, 9243627686 \u0c36\u0c4d\u0c30\u0c40 \u0c28\u0c3e\u0c15\u0c41 \u0c24\u0c40\u0c35\u0c4d\u0c30\u0c2e\u0c48\u0c28 \u0c24\u0c32\u0c28\u0c4a\u0c2a\u0c4d\u0c2a\u0c3f \u0c09\u0c02\u0c26\u0c3f 3 \u0c30\u0c4b\u0c1c\u0c41\u0c32 \u0c28\u0c41\u0c02\u0c21\u0c3f \u0c28\u0c3e \u0c24\u0c32 \u0c0e\u0c21\u0c2e \u0c35\u0c48\u0c2a\u0c41 \u0c38\u0c4d\u0c35\u0c32\u0c4d\u0c2a\u0c02",
+        "triage_level": "Low",
+        "risk_score": 30,
+        "risk_reasons": [
+            "Severity index from 1 reported symptom(s)."
+        ],
+        "symptoms": [
+            "headache"
+        ],
+        "preliminary_prediction": null,
+        "decision_path": "rule_engine:clear -> ml_model",
+        "timestamp": "2026-04-25T09:52:48.447296",
+        "id": "PT-0018"
+    }
+]

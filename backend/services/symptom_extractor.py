@@ -5,29 +5,41 @@ import re
 
 class SymptomExtractor:
 
-    def __init__(self):
+    def __init__(self, dataset_path=None):
+        if dataset_path is None:
+            dataset_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "dataset",
+                "dataset.csv"
+            )
 
-        dataset_path = os.path.join(
-            os.path.dirname(os.path.dirname(__file__)),
-            "dataset",
-            "dataset.csv"
-        )
+        try:
+            df = pd.read_csv(dataset_path)
 
-        df = pd.read_csv(dataset_path)
+            symptoms = set()
 
-        symptoms = set()
+            if "symptoms" in df.columns:
+                # collect symptoms from normalized text column
+                for symptom_list in df["symptoms"].dropna():
+                    items = str(symptom_list).lower().split(",")
+                    for s in items:
+                        clean = s.strip().replace("_", " ")
+                        if clean:
+                            symptoms.add(clean)
+            else:
+                # fallback for wide format: Symptom_1 ... Symptom_n
+                symptom_columns = [c for c in df.columns if c.lower().startswith("symptom_")]
+                for col in symptom_columns:
+                    for val in df[col].dropna():
+                        clean = str(val).strip().replace("_", " ").lower()
+                        if clean:
+                            symptoms.add(clean)
 
-        # collect symptoms
-        for symptom_list in df["symptoms"].dropna():
-
-            items = symptom_list.lower().split(",")
-
-            for s in items:
-                symptoms.add(s.strip())
-
-        # sort symptoms by length (longer first)
-        self.symptoms = sorted(list(symptoms), key=len, reverse=True)
-
+            # sort symptoms by length (longer first)
+            self.symptoms = sorted(list(symptoms), key=len, reverse=True)
+        except Exception as e:
+            print(f"Warning: Could not load dataset from {dataset_path}: {e}")
+            self.symptoms = []
 
     def extract(self, text):
 

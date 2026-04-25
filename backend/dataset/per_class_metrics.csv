@@ -1,0 +1,42 @@
+class,precision,recall,f1_score,support
+(vertigo) Paroymsal  Positional Vertigo,1.0,1.0,1.0,2
+AIDS,1.0,1.0,1.0,2
+Acne,1.0,1.0,1.0,2
+Alcoholic hepatitis,1.0,1.0,1.0,3
+Allergy,1.0,1.0,1.0,2
+Arthritis,1.0,1.0,1.0,2
+Bronchial Asthma,1.0,1.0,1.0,2
+Cervical spondylosis,1.0,1.0,1.0,2
+Chicken pox,1.0,1.0,1.0,4
+Chronic cholestasis,1.0,1.0,1.0,3
+Common Cold,1.0,1.0,1.0,3
+Dengue,1.0,1.0,1.0,4
+Diabetes,1.0,1.0,1.0,3
+Dimorphic hemmorhoids(piles),1.0,1.0,1.0,2
+Drug Reaction,1.0,1.0,1.0,2
+Fungal infection,1.0,1.0,1.0,2
+GERD,1.0,1.0,1.0,2
+Gastroenteritis,1.0,1.0,1.0,2
+Heart attack,1.0,1.0,1.0,2
+Hepatitis B,1.0,1.0,1.0,3
+Hepatitis C,1.0,1.0,1.0,2
+Hepatitis D,1.0,1.0,1.0,4
+Hepatitis E,1.0,1.0,1.0,3
+Hypertension,1.0,1.0,1.0,2
+Hyperthyroidism,1.0,1.0,1.0,3
+Hypoglycemia,1.0,1.0,1.0,3
+Hypothyroidism,1.0,1.0,1.0,3
+Impetigo,1.0,1.0,1.0,2
+Jaundice,1.0,1.0,1.0,3
+Malaria,1.0,1.0,1.0,3
+Migraine,1.0,1.0,1.0,4
+Osteoarthristis,1.0,1.0,1.0,3
+Paralysis (brain hemorrhage),1.0,1.0,1.0,2
+Peptic ulcer diseae,1.0,1.0,1.0,2
+Pneumonia,1.0,1.0,1.0,3
+Psoriasis,1.0,1.0,1.0,2
+Tuberculosis,1.0,1.0,1.0,3
+Typhoid,1.0,1.0,1.0,3
+Urinary tract infection,1.0,1.0,1.0,2
+Varicose veins,1.0,1.0,1.0,3
+hepatitis A,1.0,1.0,1.0,3
